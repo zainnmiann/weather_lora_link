@@ -1,0 +1,63 @@
+18:18:24 [relay 2] up on 869.525 MHz SF9 14 dBm, duty budget 324 s/h, next hop 3
+18:18:29 [relay 2] <- node 1 lseq 48408 rssi=-9 snr=11.0, forwarding to 3
+18:18:31 [relay 2] -> node 3 ok (lseq 31009, hop ack rssi=0 snr=11.0, queue 0)
+18:19:30 [relay 2] <- node 1 lseq 48409 rssi=-10 snr=10.0, forwarding to 3
+18:19:31 [relay 2] -> node 3 ok (lseq 31010, hop ack rssi=0 snr=11.0, queue 0)
+18:20:29 [relay 2] <- node 1 lseq 48410 rssi=-9 snr=11.0, forwarding to 3
+18:20:31 [relay 2] -> node 3 ok (lseq 31011, hop ack rssi=0 snr=11.0, queue 0)
+18:21:30 [relay 2] <- node 1 lseq 48411 rssi=-9 snr=11.0, forwarding to 3
+18:21:31 [relay 2] -> node 3 ok (lseq 31012, hop ack rssi=0 snr=11.0, queue 0)
+18:22:29 [relay 2] <- node 1 lseq 48412 rssi=-9 snr=10.0, forwarding to 3
+18:22:31 [relay 2] -> node 3 ok (lseq 31013, hop ack rssi=0 snr=11.0, queue 0)
+18:23:30 [relay 2] <- node 1 lseq 48413 rssi=-10 snr=10.0, forwarding to 3
+18:23:31 [relay 2] -> node 3 ok (lseq 31014, hop ack rssi=0 snr=11.0, queue 0)
+18:24:30 [relay 2] <- node 1 lseq 48414 rssi=-10 snr=10.0, forwarding to 3
+18:24:31 [relay 2] -> node 3 ok (lseq 31015, hop ack rssi=0 snr=11.0, queue 0)
+18:25:29 [relay 2] <- node 1 lseq 48415 rssi=-10 snr=11.0, forwarding to 3
+18:25:31 [relay 2] -> node 3 ok (lseq 31016, hop ack rssi=0 snr=11.0, queue 0)
+18:26:30 [relay 2] <- node 1 lseq 48416 rssi=-9 snr=10.0, forwarding to 3
+18:26:31 [relay 2] -> node 3 ok (lseq 31017, hop ack rssi=0 snr=11.0, queue 0)
+18:27:29 [relay 2] <- node 1 lseq 48417 rssi=-10 snr=11.0, forwarding to 3
+18:27:31 [relay 2] -> node 3 ok (lseq 31018, hop ack rssi=0 snr=11.0, queue 0)
+18:28:29 [relay 2] <- node 1 lseq 48418 rssi=-10 snr=11.0, forwarding to 3
+18:28:31 [relay 2] -> node 3 ok (lseq 31019, hop ack rssi=0 snr=11.0, queue 0)
+18:29:30 [relay 2] <- node 1 lseq 48419 rssi=-9 snr=10.0, forwarding to 3
+18:29:31 [relay 2] -> node 3 ok (lseq 31020, hop ack rssi=0 snr=11.0, queue 0)
+18:30:29 [relay 2] <- node 1 lseq 48420 rssi=-10 snr=11.0, forwarding to 3
+18:30:31 [relay 2] -> node 3 ok (lseq 31021, hop ack rssi=0 snr=11.0, queue 0)
+18:31:30 [relay 2] <- node 1 lseq 48421 rssi=-10 snr=10.0, forwarding to 3
+18:31:31 [relay 2] -> node 3 ok (lseq 31022, hop ack rssi=0 snr=11.0, queue 0)
+18:32:30 [relay 2] <- node 1 lseq 48422 rssi=-10 snr=11.0, forwarding to 3
+18:32:31 [relay 2] -> node 3 ok (lseq 31023, hop ack rssi=0 snr=11.0, queue 0)
+18:33:30 [relay 2] <- node 1 lseq 48423 rssi=-11 snr=10.0, forwarding to 3
+18:33:31 [relay 2] -> node 3 ok (lseq 31024, hop ack rssi=0 snr=11.0, queue 0)
+18:34:29 [relay 2] <- node 1 lseq 48424 rssi=-10 snr=10.0, forwarding to 3
+18:34:31 [relay 2] -> node 3 ok (lseq 31025, hop ack rssi=0 snr=11.0, queue 0)
+18:35:30 [relay 2] <- node 1 lseq 48425 rssi=-11 snr=11.0, forwarding to 3
+18:35:31 [relay 2] -> node 3 ok (lseq 31026, hop ack rssi=0 snr=11.0, queue 0)
+18:36:30 [relay 2] <- node 1 lseq 48426 rssi=-10 snr=11.0, forwarding to 3
+18:36:31 [relay 2] -> node 3 ok (lseq 31027, hop ack rssi=0 snr=11.0, queue 0)
+18:37:30 [relay 2] <- node 1 lseq 48427 rssi=-8 snr=11.0, forwarding to 3
+18:37:31 [relay 2] -> node 3 ok (lseq 31028, hop ack rssi=0 snr=11.0, queue 0)
+18:38:30 [relay 2] <- node 1 lseq 48428 rssi=-9 snr=10.0, forwarding to 3
+18:38:31 [relay 2] -> node 3 ok (lseq 31029, hop ack rssi=0 snr=11.0, queue 0)
+18:39:30 [relay 2] <- node 1 lseq 48429 rssi=-10 snr=11.0, forwarding to 3
+18:39:31 [relay 2] -> node 3 ok (lseq 31030, hop ack rssi=0 snr=11.0, queue 0)
+18:40:29 [relay 2] <- node 1 lseq 48430 rssi=-10 snr=10.0, forwarding to 3
+18:40:31 [relay 2] -> node 3 ok (lseq 31031, hop ack rssi=0 snr=11.0, queue 0)
+18:41:29 [relay 2] <- node 1 lseq 48431 rssi=-10 snr=10.0, forwarding to 3
+18:41:31 [relay 2] -> node 3 ok (lseq 31032, hop ack rssi=0 snr=11.0, queue 0)
+18:42:29 [relay 2] <- node 1 lseq 48432 rssi=-7 snr=11.0, forwarding to 3
+18:42:31 [relay 2] -> node 3 ok (lseq 31033, hop ack rssi=0 snr=11.0, queue 0)
+18:43:30 [relay 2] <- node 1 lseq 48433 rssi=-7 snr=11.0, forwarding to 3
+18:43:31 [relay 2] -> node 3 ok (lseq 31034, hop ack rssi=0 snr=11.0, queue 0)
+18:44:30 [relay 2] <- node 1 lseq 48434 rssi=-8 snr=11.0, forwarding to 3
+18:44:31 [relay 2] -> node 3 ok (lseq 31035, hop ack rssi=0 snr=11.0, queue 0)
+18:45:29 [relay 2] <- node 1 lseq 48435 rssi=-7 snr=11.0, forwarding to 3
+18:45:31 [relay 2] -> node 3 ok (lseq 31036, hop ack rssi=0 snr=11.0, queue 0)
+18:46:30 [relay 2] <- node 1 lseq 48436 rssi=-7 snr=11.0, forwarding to 3
+18:46:31 [relay 2] -> node 3 ok (lseq 31037, hop ack rssi=0 snr=11.0, queue 0)
+18:47:30 [relay 2] <- node 1 lseq 48437 rssi=-7 snr=11.0, forwarding to 3
+18:47:31 [relay 2] -> node 3 ok (lseq 31038, hop ack rssi=0 snr=11.0, queue 0)
+18:49:58 [relay 2] held []
+18:49:58 [relay 2] stopped; queue 0; stats {"sent": 30, "acked": 30, "retries": 0, "fwd_in": 30, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 13.95, "faults": 0, "dropped": 0, "refused_duty": 0, "published": 0, "unexpected_errors": 0}

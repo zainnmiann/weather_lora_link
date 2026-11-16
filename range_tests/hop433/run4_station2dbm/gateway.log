@@ -1,0 +1,22 @@
+18:47:41 wp�ets Jul 29 2019 12:21:46
+18:47:41 
+18:47:41 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+18:47:41 configsip: 0, SPIWP:0xee
+18:47:41 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+18:47:41 mode:DIO, clock div:2
+18:47:41 load:0x3fff0030,len:1184
+18:47:41 load:0x40078000,len:13232
+18:47:41 load:0x40080400,len:3028
+18:47:41 entry 0x400805e4
+18:47:41 
+18:47:41 0s [gateway 2] LakeLink hop node: gateway, 434.000 MHz SF9 10 dBm, radio ready, duty budget 324000 ms/h
+18:47:51 10s [gateway 2] <- 1 lseq 24314 hops 1 rssi -36 snr 13.2 fei 945 Hz
+18:47:51 DELIVERED {"station":1,"boot":22823,"seq":1,"hops":1,"last_hop_from":1,"rssi":-36,"snr":13.2,"temp_c":26.04,"wind_ms":0.00,"gust_ms":0.00,"wind_dir_deg":270,"rain_total_mm":0.0,"flags":8,"frame":"020001275901002c0a9110a327000000000e010000ffff4d000000ff088e82807c"}
+18:48:41 60s [gateway 2] status: in 1 (dup 0), sent 0, acked 0, retries 0, delivered 1, rejected 0, refused 0, dropped 0, bad 0, crc 0, radio errors 0, airtime 161/324000 ms/h
+18:48:51 70s [gateway 2] <- 1 lseq 24315 hops 1 rssi -37 snr 11.0 fei 970 Hz
+18:48:51 DELIVERED {"station":1,"boot":22823,"seq":2,"hops":1,"last_hop_from":1,"rssi":-37,"snr":11.0,"temp_c":26.01,"wind_ms":0.00,"gust_ms":0.00,"wind_dir_deg":270,"rain_total_mm":0.0,"flags":0,"frame":"02000127590200290a9510a327000000000e010000ffff52000000ff00021a8e4c"}
+18:49:41 120s [gateway 2] status: in 2 (dup 0), sent 0, acked 0, retries 0, delivered 2, rejected 0, refused 0, dropped 0, bad 0, crc 0, radio errors 0, airtime 322/324000 ms/h
+18:49:51 130s [gateway 2] <- 1 lseq 24316 hops 1 rssi -36 snr 13.5 fei 970 Hz
+18:49:51 DELIVERED {"station":1,"boot":22823,"seq":3,"hops":1,"last_hop_from":1,"rssi":-36,"snr":13.5,"temp_c":26.04,"wind_ms":0.00,"gust_ms":0.00,"wind_dir_deg":270,"rain_total_mm":0.0,"flags":0,"frame":"020001275903002c0a8a10a327000000000e010000ffff33000000ff00828a081a"}
+18:50:41 180s [gateway 2] status: in 3 (dup 0), sent 0, acked 0, retries 0, delivered 3, rejected 0, refused 0, dropped 0, bad 0, crc 0, radio errors 0, airtime 483/324000 ms/h
+18:51:41 240s [gateway 2] status: in 3 (dup 0), sent 0, acked 0, retries 0, delivered 3, rejected 0, refused 0, dropped 0, bad 0, crc 0, radio errors 0, airtime 483/324000 ms/h

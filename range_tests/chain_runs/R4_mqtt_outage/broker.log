@@ -1,0 +1,23 @@
+1792063237: Info: running mosquitto as user: miansaab.
+1792063237: mosquitto version 2.1.2 starting
+1792063237: Using default config.
+1792063237: Bridge support available.
+1792063237: Persistence support available.
+1792063237: TLS support available.
+1792063237: TLS-PSK support available.
+1792063237: Websockets support available.
+1792063237: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1792063237: Create a configuration file which defines a listener to allow remote access.
+1792063237: For more details see https://mosquitto.org/documentation/authentication-methods/
+1792063237: Opening ipv4 listen socket on port 18830.
+1792063237: Opening ipv6 listen socket on port 18830.
+1792063237: mosquitto version 2.1.2 running
+1792063238: New connection from 127.0.0.1:58095 on port 18830.
+1792063238: New client connected from 127.0.0.1:58095 as auto-0C3A02BF-1501-E63E-627D-A06C6FBC7D27 (p4, c1, k60).
+1792063240: New connection from 127.0.0.1:58096 on port 18830.
+1792063240: New client connected from 127.0.0.1:58096 as auto-2B7C317E-2FB4-300C-55C5-AB1D031AD2BA (p4, c1, k60).
+1792063441: Client auto-2B7C317E-2FB4-300C-55C5-AB1D031AD2BA [127.0.0.1:58096] disconnected: connection closed by client.
+1792063441: Client auto-2B7C317E-2FB4-300C-55C5-AB1D031AD2BA [127.0.0.1:58096] disconnected: connection closed by client.
+1792063444: Client auto-0C3A02BF-1501-E63E-627D-A06C6FBC7D27 [127.0.0.1:58095] disconnected.
+1792063444: Client auto-0C3A02BF-1501-E63E-627D-A06C6FBC7D27 [127.0.0.1:58095] disconnected: connection closed by client.
+1792063444: mosquitto version 2.1.2 terminating

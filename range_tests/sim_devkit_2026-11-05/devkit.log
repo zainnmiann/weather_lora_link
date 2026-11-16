@@ -1,0 +1,47 @@
+19:51:22 ets Jul 29 2019 12:21:46
+19:51:22 
+19:51:22 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+19:51:22 configsip: 0, SPIWP:0xee
+19:51:22 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+19:51:22 mode:DIO, clock div:2
+19:51:22 load:0x3fff0030,len:1184
+19:51:22 load:0x40078000,len:13232
+19:51:22 load:0x40080400,len:3028
+19:51:22 entry 0x400805e4
+19:51:23 
+19:51:23 === SIM800L probe ===
+19:51:23 GPIO17 as INPUT: high 20/20
+19:51:23 GPIO17 as PULLUP: high 20/20
+19:51:23 GPIO17 as PULLDOWN: high 0/20
+19:51:23 GPIO16 (SIM TXD) idle: high 20/20 (UART idle should be high)
+19:51:23 baud 9600:
+19:51:24   AT             -> (no reply)
+19:51:25   AT             -> (no reply)
+19:51:25   AT             -> (no reply)
+19:51:25 baud 115200:
+19:51:26   AT             -> (no reply)
+19:51:27   AT             -> (no reply)
+19:51:28   AT             -> BU
+19:51:28 baud 57600:
+19:51:29   AT             -> �
+19:51:29   AT             -> �
+19:51:30   AT             -> �
+19:51:30 baud 38400:
+19:51:31   AT             ->  | OK |  | RDY |  | +CFUN: 1 |
+19:51:31 RESULT: modem answers at 38400 baud
+19:51:33   ATI            ->  | +CPIN: READY | OVER-VOLTAGE POWER DOWN
+19:51:35   AT+GSN         -> (no reply)
+19:51:37   AT+CPIN?       -> (no reply)
+19:51:39   AT+CCID        -> (no reply)
+19:51:41   AT+CSQ         -> (no reply)
+19:51:43   AT+CREG?       -> (no reply)
+19:51:45   AT+COPS?       -> (no reply)
+19:51:47   AT+CBC         -> (no reply)
+19:51:49   AT+CGATT?      -> (no reply)
+19:51:49 status:
+19:51:50   AT+CSQ         -> (no reply)
+19:51:52   AT+CREG?       -> (no reply)
+19:51:54   AT+CBC         -> (no reply)
+19:52:09 status:
+19:52:10   AT+CSQ         -> (no reply)
+19:52:12   AT+CREG?       -> (no reply)

@@ -1,0 +1,19 @@
+readings made           : 28
+delivered (unique)      : 28   hop counts seen: [2]
+still queued at stop    : station 0, relays 0
+missing                 : 0 []
+  of which unexplained  : 0 []   (missing and not held by any node)
+duplicates delivered    : 0 []
+phantom deliveries      : 0 []
+delivery order preserved: True
+latency s (min/median/max): 2 / 50 / 118
+log events:
+  station               : {'next hop unreachable': 3}
+                          queue 0; stats {"sent": 43, "acked": 28, "retries": 15, "fwd_in": 0, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 13.08, "faults": 0, "dropped": 0, "refused_duty": 0, "published": 0, "unexpected_errors": 0}
+  gateway               : {'duplicate re-acked': 2}
+                          queue 0; stats {"sent": 0, "acked": 0, "retries": 0, "fwd_in": 5, "dup_in": 0, "delivered": 5, "recoveries": 0, "duty_waits": 0, "airtime_s": 0.8, "faults": 0, "dropped": 0, "refused_duty": 0, "published": 0, "unexpected_errors": 0}
+                          queue 0; stats {"sent": 0, "acked": 0, "retries": 0, "fwd_in": 23, "dup_in": 2, "delivered": 23, "recoveries": 0, "duty_waits": 0, "airtime_s": 4.02, "faults": 0, "dropped": 0, "refused_duty": 0, "published": 0, "unexpected_errors": 0}
+  relay(relay.log)      : {'next hop unreachable': 6}
+                          queue 8; stats {"sent": 11, "acked": 5, "retries": 5, "fwd_in": 13, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 5.44, "faults": 0, "dropped": 0, "refused_duty": 0, "published": 0, "unexpected_errors": 0}
+                          queue 0; stats {"sent": 31, "acked": 23, "retries": 8, "fwd_in": 15, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 11.84, "faults": 0, "dropped": 0, "refused_duty": 0, "published": 0, "unexpected_errors": 0}
+RESULT: PASS

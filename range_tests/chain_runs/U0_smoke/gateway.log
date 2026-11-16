@@ -1,0 +1,4 @@
+16:15:09 [gateway 3] up on 869.525 MHz SF9 14 dBm, duty budget 324 s/h
+16:15:26 [gateway 3] DELIVERED station 1 boot 52254 seq 1 via 2 hop(s): {"station": 1, "boot": 52254, "seq": 1, "temp_c": 28.47, "rh_pct": 49.11, "press_hpa": 1013.1, "wind_ms": 0.0, "gust_ms": 0.0, "wind_dir_deg": 0.0, "rain_total_mm": 0.0, "soil_pct": 0.0, "lightning_total": 0.0, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": true, "time": "2026-10-20T13:15:26Z", "hops": 2, "last_hop_from": 2, "rssi": -45, "snr": 11.0}
+16:16:34 [gateway 3] held []
+16:16:34 [gateway 3] stopped; queue 0; stats {"sent": 0, "acked": 0, "retries": 0, "fwd_in": 1, "dup_in": 0, "delivered": 1, "recoveries": 0, "duty_waits": 0, "airtime_s": 0.16, "faults": 0, "dropped": 0, "refused_duty": 0, "published": 0, "unexpected_errors": 0}

@@ -1,0 +1,23 @@
+18:44:39 ets Jul 29 2019 12:21:46
+18:44:39 
+18:44:39 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+18:44:39 configsip: 0, SPIWP:0xee
+18:44:39 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+18:44:39 mode:DIO, clock div:2
+18:44:39 load:0x3fff0030,len:1184
+18:44:39 load:0x40078000,len:13232
+18:44:39 load:0x40080400,len:3028
+18:44:39 entry 0x400805e4
+18:44:40 
+18:44:40 0s [gateway 2] LakeLink hop node: gateway, 434.000 MHz SF9 10 dBm, radio ready, duty budget 324000 ms/h
+18:44:50 10s [gateway 2] <- 1 lseq 61584 hops 1 rssi -27 snr 13.8 fei 836 Hz
+18:44:50 DELIVERED {"station":1,"boot":58691,"seq":1,"hops":1,"last_hop_from":1,"rssi":-27,"snr":13.8,"temp_c":26.00,"wind_ms":0.00,"gust_ms":0.00,"wind_dir_deg":270,"rain_total_mm":0.0,"flags":8,"frame":"02000143e50100280aa810a327000000000e010000ffff4a000000ff0883022508"}
+18:45:39 60s [gateway 2] status: in 1 (dup 0), sent 0, acked 0, retries 0, delivered 1, rejected 0, refused 0, dropped 0, bad 0, crc 0, radio errors 0, airtime 161/324000 ms/h
+18:45:49 70s [gateway 2] <- 1 lseq 61585 hops 1 rssi -30 snr 13.5 fei 933 Hz
+18:45:49 DELIVERED {"station":1,"boot":58691,"seq":2,"hops":1,"last_hop_from":1,"rssi":-30,"snr":13.5,"temp_c":25.98,"wind_ms":0.00,"gust_ms":0.00,"wind_dir_deg":270,"rain_total_mm":0.0,"flags":0,"frame":"02000143e50200260aac10a427000000000e010000ffff3c000000ff006870d82d"}
+18:45:53 73s [gateway 2] <- 1 repeat lseq 61585, re-acked
+18:45:56 76s [gateway 2] <- 1 repeat lseq 61585, re-acked
+18:46:05 85s [gateway 2] <- 1 repeat lseq 61585, re-acked
+18:46:15 95s [gateway 2] <- 1 repeat lseq 61585, re-acked
+18:46:34 115s [gateway 2] <- 1 repeat lseq 61585, re-acked
+18:46:39 120s [gateway 2] status: in 2 (dup 5), sent 0, acked 0, retries 0, delivered 2, rejected 0, refused 0, dropped 0, bad 0, crc 0, radio errors 0, airtime 1127/324000 ms/h

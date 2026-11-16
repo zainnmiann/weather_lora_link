@@ -1,0 +1,382 @@
+16:16:58 [bridge] ESP32 restarted
+16:16:58 [bridge] /dev/cu.usbserial-130 <-> /dev/cu.usbserial-120
+16:16:58 ets Jul 29 2019 12:21:46
+16:16:58 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FL�ets Jul 29 2019 12:21:46
+16:16:58 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+16:16:58 configsip: 0, SPIWP:0xee
+16:16:58 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+16:16:58 mode:DIO, clock div:2
+16:16:58 load:0x3fff0030,len:1184
+16:16:58 load:0x40078000,len:13232
+16:16:58 load:0x40080400,len:3028
+16:16:58 entry 0x400805e4
+16:16:59 === Hava Istasyonu baslatiliyor ===
+16:16:59 LakeLink station 1, node 1 -> next hop 2
+16:16:59 BME280 hazir.
+16:16:59 AS3935 hazir (SPI, CS=GPIO12).
+16:16:59 Weather Meter Kit hazir (ruzgar/yagmur).
+16:16:59 Toprak nemi sensoru hazir (analog).
+16:17:00 [e5] timeout waiting for '+AT: OK' after AT
+16:17:00 [station 1] boot 21340, 869.525 MHz SF9 14 dBm, radio ready, duty budget 324000 ms/h, report every 60 s
+16:17:00 --------------------------------------
+16:17:00 TELEM {"temperature":28.16,"humidity":49.86,"pressure":1013.11,"altitude":1.13,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.5,"soil_adc":10}
+16:17:03 TELEM {"temperature":28.14,"humidity":49.92,"pressure":1013.05,"altitude":1.63,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.9,"soil_adc":19}
+16:17:06 TELEM {"temperature":28.14,"humidity":49.94,"pressure":1013.05,"altitude":1.63,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:09 [station 1] reading boot 21340 seq 1 queued (queue 1; sent 0 acked 0 dropped 0 duty-waits 0 radio-errors 0; airtime 0/324000 ms this hour)
+16:17:09 [station 1] held [21340:1]
+16:17:10 [station 1] -> 2 ok (lseq 32703, try 1, rssi -30 snr 10.0, queue 0)
+16:17:10 [station 1] held []
+16:17:10 TELEM {"temperature":28.13,"humidity":49.96,"pressure":1013.01,"altitude":2.00,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:13 TELEM {"temperature":28.09,"humidity":49.99,"pressure":1013.06,"altitude":1.56,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:16 TELEM {"temperature":28.11,"humidity":50.02,"pressure":1013.11,"altitude":1.20,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.2,"soil_adc":8}
+16:17:19 TELEM {"temperature":28.11,"humidity":50.03,"pressure":1013.11,"altitude":1.20,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.2,"soil_adc":1}
+16:17:22 TELEM {"temperature":28.10,"humidity":50.06,"pressure":1013.10,"altitude":1.27,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:25 TELEM {"temperature":28.08,"humidity":50.07,"pressure":1013.07,"altitude":1.47,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:28 TELEM {"temperature":28.08,"humidity":50.09,"pressure":1013.07,"altitude":1.54,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.5,"soil_adc":10}
+16:17:31 TELEM {"temperature":28.08,"humidity":50.10,"pressure":1013.07,"altitude":1.47,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:34 TELEM {"temperature":28.07,"humidity":50.12,"pressure":1013.10,"altitude":1.22,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:37 TELEM {"temperature":28.06,"humidity":50.15,"pressure":1013.11,"altitude":1.81,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:40 TELEM {"temperature":28.05,"humidity":50.15,"pressure":1013.04,"altitude":1.72,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.0,"soil_adc":13}
+16:17:43 TELEM {"temperature":28.05,"humidity":50.21,"pressure":1013.07,"altitude":1.49,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.2,"soil_adc":1}
+16:17:46 TELEM {"temperature":28.05,"humidity":50.21,"pressure":1013.07,"altitude":1.49,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:49 TELEM {"temperature":28.04,"humidity":50.23,"pressure":1013.06,"altitude":1.56,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:52 TELEM {"temperature":28.05,"humidity":50.23,"pressure":1013.04,"altitude":1.72,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:17:55 TELEM {"temperature":28.04,"humidity":50.23,"pressure":1013.17,"altitude":0.65,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:17:58 TELEM {"temperature":28.04,"humidity":50.26,"pressure":1013.06,"altitude":1.56,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:01 TELEM {"temperature":28.04,"humidity":50.26,"pressure":1013.11,"altitude":1.17,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.2,"soil_adc":8}
+16:18:04 TELEM {"temperature":28.05,"humidity":50.26,"pressure":1013.02,"altitude":1.95,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:07 TELEM {"temperature":28.03,"humidity":50.30,"pressure":1013.07,"altitude":1.54,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:09 [station 1] reading boot 21340 seq 2 queued (queue 1; sent 1 acked 1 dropped 0 duty-waits 0 radio-errors 0; airtime 305/324000 ms this hour)
+16:18:09 [station 1] held [21340:2]
+16:18:10 [station 1] -> 2 ok (lseq 32704, try 1, rssi -29 snr 11.0, queue 0)
+16:18:10 [station 1] held []
+16:18:10 TELEM {"temperature":28.03,"humidity":50.29,"pressure":1013.10,"altitude":1.24,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.3,"soil_adc":15}
+16:18:13 TELEM {"temperature":28.02,"humidity":50.32,"pressure":1013.13,"altitude":0.99,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:16 TELEM {"temperature":28.02,"humidity":50.28,"pressure":1013.08,"altitude":1.45,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:19 TELEM {"temperature":28.00,"humidity":50.33,"pressure":1013.02,"altitude":1.88,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:22 TELEM {"temperature":28.01,"humidity":50.34,"pressure":1013.11,"altitude":1.13,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:18:25 TELEM {"temperature":28.02,"humidity":50.33,"pressure":1013.08,"altitude":1.45,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:28 TELEM {"temperature":28.01,"humidity":50.33,"pressure":1013.06,"altitude":1.58,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:31 TELEM {"temperature":28.00,"humidity":50.34,"pressure":1013.04,"altitude":1.72,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:34 TELEM {"temperature":28.01,"humidity":50.35,"pressure":1013.11,"altitude":1.13,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.9,"soil_adc":6}
+16:18:37 TELEM {"temperature":28.02,"humidity":50.33,"pressure":1013.08,"altitude":1.45,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:40 TELEM {"temperature":28.00,"humidity":50.16,"pressure":1013.05,"altitude":1.65,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:43 TELEM {"temperature":27.99,"humidity":50.38,"pressure":1013.08,"altitude":1.40,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:46 TELEM {"temperature":27.99,"humidity":50.42,"pressure":1013.08,"altitude":1.40,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.2,"soil_adc":8}
+16:18:49 TELEM {"temperature":27.98,"humidity":50.38,"pressure":1013.07,"altitude":1.54,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:52 TELEM {"temperature":27.98,"humidity":50.42,"pressure":1013.07,"altitude":1.54,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:55 TELEM {"temperature":27.97,"humidity":50.45,"pressure":1013.06,"altitude":1.61,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:18:58 TELEM {"temperature":27.96,"humidity":50.45,"pressure":1013.04,"altitude":1.74,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:01 TELEM {"temperature":27.97,"humidity":50.46,"pressure":1013.10,"altitude":1.21,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.3,"soil_adc":15}
+16:19:04 TELEM {"temperature":27.98,"humidity":50.47,"pressure":1013.12,"altitude":1.08,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.9,"soil_adc":6}
+16:19:07 TELEM {"temperature":27.98,"humidity":50.47,"pressure":1013.10,"altitude":1.24,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:09 [station 1] reading boot 21340 seq 3 queued (queue 1; sent 2 acked 2 dropped 0 duty-waits 0 radio-errors 0; airtime 610/324000 ms this hour)
+16:19:09 [station 1] held [21340:3]
+16:19:10 [station 1] -> 2 ok (lseq 32705, try 1, rssi -29 snr 11.0, queue 0)
+16:19:10 [station 1] held []
+16:19:10 TELEM {"temperature":27.98,"humidity":50.55,"pressure":1013.09,"altitude":1.31,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:13 TELEM {"temperature":27.97,"humidity":50.49,"pressure":1013.05,"altitude":1.67,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:16 TELEM {"temperature":27.97,"humidity":50.47,"pressure":1013.05,"altitude":1.67,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:19 TELEM {"temperature":27.96,"humidity":50.49,"pressure":1013.09,"altitude":1.35,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.2,"soil_adc":14}
+16:19:22 TELEM {"temperature":27.96,"humidity":50.49,"pressure":1013.14,"altitude":0.90,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:25 TELEM {"temperature":27.95,"humidity":50.50,"pressure":1013.08,"altitude":1.42,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:28 TELEM {"temperature":27.95,"humidity":50.52,"pressure":1013.10,"altitude":1.26,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:31 TELEM {"temperature":27.93,"humidity":50.55,"pressure":1013.04,"altitude":1.76,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:34 TELEM {"temperature":27.92,"humidity":50.57,"pressure":1013.14,"altitude":0.92,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.8,"soil_adc":5}
+16:19:37 TELEM {"temperature":27.92,"humidity":50.57,"pressure":1013.08,"altitude":1.38,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:19:40 TELEM {"temperature":27.91,"humidity":50.58,"pressure":1013.15,"altitude":0.82,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:43 TELEM {"temperature":27.93,"humidity":50.62,"pressure":1013.09,"altitude":1.31,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:46 TELEM {"temperature":27.92,"humidity":50.58,"pressure":1013.13,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:49 TELEM {"temperature":27.90,"humidity":50.61,"pressure":1013.08,"altitude":1.42,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:19:52 TELEM {"temperature":27.90,"humidity":50.64,"pressure":1013.04,"altitude":1.72,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:19:55 TELEM {"temperature":27.90,"humidity":50.65,"pressure":1013.08,"altitude":0.96,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.6,"soil_adc":4}
+16:19:58 TELEM {"temperature":27.90,"humidity":50.69,"pressure":1013.10,"altitude":1.26,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:01 TELEM {"temperature":27.89,"humidity":50.69,"pressure":1013.08,"altitude":1.40,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:04 TELEM {"temperature":27.89,"humidity":50.69,"pressure":1013.08,"altitude":1.40,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:07 TELEM {"temperature":27.89,"humidity":50.69,"pressure":1013.08,"altitude":1.40,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.9,"soil_adc":12}
+16:20:09 [station 1] reading boot 21340 seq 4 queued (queue 1; sent 3 acked 3 dropped 0 duty-waits 0 radio-errors 0; airtime 915/324000 ms this hour)
+16:20:09 [station 1] held [21340:4]
+16:20:10 [station 1] -> 2 ok (lseq 32706, try 1, rssi -34 snr 11.0, queue 0)
+16:20:10 [station 1] held []
+16:20:10 TELEM {"temperature":27.87,"humidity":50.73,"pressure":1013.06,"altitude":1.60,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.9,"soil_adc":19}
+16:20:13 TELEM {"temperature":27.87,"humidity":50.71,"pressure":1013.06,"altitude":1.60,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:16 TELEM {"temperature":27.85,"humidity":50.76,"pressure":1013.14,"altitude":0.89,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:19 TELEM {"temperature":27.84,"humidity":50.76,"pressure":1013.13,"altitude":1.03,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:22 TELEM {"temperature":27.83,"humidity":50.79,"pressure":1013.11,"altitude":1.17,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:25 TELEM {"temperature":27.83,"humidity":50.82,"pressure":1013.11,"altitude":1.17,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.9,"soil_adc":19}
+16:20:28 TELEM {"temperature":27.83,"humidity":50.84,"pressure":1013.11,"altitude":1.17,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:31 TELEM {"temperature":27.82,"humidity":50.85,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:34 TELEM {"temperature":27.82,"humidity":50.85,"pressure":1013.09,"altitude":1.30,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:37 TELEM {"temperature":27.82,"humidity":50.89,"pressure":1013.09,"altitude":1.37,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:40 TELEM {"temperature":27.80,"humidity":50.90,"pressure":1013.06,"altitude":1.58,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.2,"soil_adc":14}
+16:20:43 TELEM {"temperature":27.80,"humidity":50.95,"pressure":1013.12,"altitude":1.12,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.5,"soil_adc":10}
+16:20:46 TELEM {"temperature":27.81,"humidity":50.95,"pressure":1013.10,"altitude":1.28,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:49 TELEM {"temperature":27.80,"humidity":50.97,"pressure":1013.12,"altitude":1.12,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:52 TELEM {"temperature":27.81,"humidity":50.96,"pressure":1013.13,"altitude":0.98,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:55 TELEM {"temperature":27.79,"humidity":50.98,"pressure":1013.04,"altitude":1.71,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:20:58 TELEM {"temperature":27.81,"humidity":51.01,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":3.4,"soil_adc":22}
+16:21:01 TELEM {"temperature":27.81,"humidity":50.94,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:04 TELEM {"temperature":27.81,"humidity":50.95,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:07 TELEM {"temperature":27.81,"humidity":50.94,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:09 [station 1] reading boot 21340 seq 5 queued (queue 1; sent 4 acked 4 dropped 0 duty-waits 0 radio-errors 0; airtime 1220/324000 ms this hour)
+16:21:09 [station 1] held [21340:5]
+16:21:10 [station 1] -> 2 ok (lseq 32707, try 1, rssi -28 snr 11.0, queue 0)
+16:21:10 [station 1] held []
+16:21:10 TELEM {"temperature":27.81,"humidity":50.92,"pressure":1013.07,"altitude":1.51,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:13 TELEM {"temperature":27.80,"humidity":50.94,"pressure":1013.09,"altitude":1.35,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:21:16 TELEM {"temperature":27.81,"humidity":50.94,"pressure":1013.16,"altitude":0.75,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.3,"soil_adc":2}
+16:21:19 TELEM {"temperature":27.80,"humidity":50.96,"pressure":1013.08,"altitude":1.42,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:22 TELEM {"temperature":27.80,"humidity":50.98,"pressure":1013.16,"altitude":0.73,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:25 TELEM {"temperature":27.78,"humidity":51.00,"pressure":1013.10,"altitude":1.23,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:28 TELEM {"temperature":27.76,"humidity":51.03,"pressure":1013.10,"altitude":1.28,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:31 TELEM {"temperature":27.75,"humidity":51.04,"pressure":1013.14,"altitude":0.89,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":3.7,"soil_adc":24}
+16:21:34 TELEM {"temperature":27.75,"humidity":51.08,"pressure":1013.14,"altitude":0.96,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.3,"soil_adc":15}
+16:21:37 TELEM {"temperature":27.75,"humidity":51.07,"pressure":1013.12,"altitude":1.12,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:40 TELEM {"temperature":27.76,"humidity":51.04,"pressure":1013.13,"altitude":0.98,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:43 TELEM {"temperature":27.76,"humidity":51.07,"pressure":1013.04,"altitude":1.74,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:46 TELEM {"temperature":27.77,"humidity":51.06,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:49 TELEM {"temperature":27.76,"humidity":51.06,"pressure":1013.05,"altitude":1.67,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.5,"soil_adc":10}
+16:21:52 TELEM {"temperature":27.77,"humidity":51.06,"pressure":1013.09,"altitude":1.37,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":3.5,"soil_adc":23}
+16:21:55 TELEM {"temperature":27.77,"humidity":51.06,"pressure":1013.07,"altitude":1.53,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:21:58 TELEM {"temperature":27.77,"humidity":51.07,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:01 TELEM {"temperature":27.77,"humidity":51.06,"pressure":1013.09,"altitude":1.30,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:04 TELEM {"temperature":27.77,"humidity":51.06,"pressure":1013.11,"altitude":1.14,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:07 TELEM {"temperature":27.75,"humidity":51.10,"pressure":1013.03,"altitude":1.81,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:09 [station 1] reading boot 21340 seq 6 queued (queue 1; sent 5 acked 5 dropped 0 duty-waits 0 radio-errors 0; airtime 1525/324000 ms this hour)
+16:22:09 [station 1] held [21340:6]
+16:22:10 [station 1] -> 2 ok (lseq 32708, try 1, rssi -29 snr 11.0, queue 0)
+16:22:10 [station 1] held []
+16:22:10 TELEM {"temperature":27.74,"humidity":50.67,"pressure":1013.13,"altitude":1.03,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:13 TELEM {"temperature":27.75,"humidity":51.08,"pressure":1013.06,"altitude":1.58,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:16 TELEM {"temperature":27.76,"humidity":51.08,"pressure":1013.10,"altitude":1.28,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:19 TELEM {"temperature":27.73,"humidity":51.11,"pressure":1013.00,"altitude":2.08,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.3,"soil_adc":2}
+16:22:22 TELEM {"temperature":27.75,"humidity":51.11,"pressure":1013.11,"altitude":1.19,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.5,"soil_adc":3}
+16:22:25 TELEM {"temperature":27.75,"humidity":51.12,"pressure":1013.05,"altitude":1.64,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:22:28 TELEM {"temperature":27.75,"humidity":51.10,"pressure":1013.08,"altitude":1.42,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.9,"soil_adc":19}
+16:22:31 TELEM {"temperature":27.75,"humidity":51.10,"pressure":1013.09,"altitude":1.35,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.9,"soil_adc":6}
+16:22:34 TELEM {"temperature":27.74,"humidity":51.12,"pressure":1013.07,"altitude":1.49,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:37 TELEM {"temperature":27.75,"humidity":51.10,"pressure":1013.12,"altitude":1.12,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:40 TELEM {"temperature":27.75,"humidity":51.09,"pressure":1013.09,"altitude":1.35,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:43 TELEM {"temperature":27.75,"humidity":51.09,"pressure":1013.08,"altitude":1.42,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:46 TELEM {"temperature":27.75,"humidity":51.10,"pressure":1013.08,"altitude":1.42,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:49 TELEM {"temperature":27.74,"humidity":51.12,"pressure":1013.17,"altitude":0.64,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.8,"soil_adc":18}
+16:22:52 TELEM {"temperature":27.74,"humidity":51.13,"pressure":1013.13,"altitude":1.03,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.9,"soil_adc":19}
+16:22:55 TELEM {"temperature":27.71,"humidity":51.13,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:22:58 TELEM {"temperature":27.71,"humidity":51.17,"pressure":1013.05,"altitude":1.67,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:01 TELEM {"temperature":27.71,"humidity":51.18,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:04 TELEM {"temperature":27.72,"humidity":51.17,"pressure":1013.07,"altitude":1.53,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:07 TELEM {"temperature":27.70,"humidity":51.19,"pressure":1013.09,"altitude":1.35,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:09 [station 1] reading boot 21340 seq 7 queued (queue 1; sent 6 acked 6 dropped 0 duty-waits 0 radio-errors 0; airtime 1830/324000 ms this hour)
+16:23:09 [station 1] held [21340:7]
+16:23:10 [station 1] -> 2 ok (lseq 32709, try 1, rssi -29 snr 11.0, queue 0)
+16:23:10 [station 1] held []
+16:23:10 TELEM {"temperature":27.71,"humidity":51.18,"pressure":1013.12,"altitude":1.05,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.3,"soil_adc":15}
+16:23:13 TELEM {"temperature":27.71,"humidity":51.19,"pressure":1013.05,"altitude":1.67,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":3.9,"soil_adc":25}
+16:23:16 TELEM {"temperature":27.70,"humidity":51.20,"pressure":1013.06,"altitude":1.58,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:23:19 TELEM {"temperature":27.70,"humidity":51.21,"pressure":1013.11,"altitude":1.19,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:22 TELEM {"temperature":27.70,"humidity":51.23,"pressure":1013.11,"altitude":1.19,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:25 TELEM {"temperature":27.69,"humidity":51.24,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:28 TELEM {"temperature":27.70,"humidity":51.52,"pressure":1013.17,"altitude":0.66,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:31 TELEM {"temperature":27.71,"humidity":51.22,"pressure":1013.12,"altitude":1.05,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:34 TELEM {"temperature":27.69,"humidity":51.23,"pressure":1013.07,"altitude":1.48,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:37 TELEM {"temperature":27.70,"humidity":51.22,"pressure":1013.17,"altitude":0.66,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:40 TELEM {"temperature":27.70,"humidity":51.22,"pressure":1013.11,"altitude":1.19,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:43 TELEM {"temperature":27.70,"humidity":51.22,"pressure":1013.08,"altitude":1.42,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.3,"soil_adc":2}
+16:23:46 TELEM {"temperature":27.68,"humidity":51.23,"pressure":1013.10,"altitude":1.23,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":3.4,"soil_adc":22}
+16:23:49 TELEM {"temperature":27.68,"humidity":51.24,"pressure":1013.14,"altitude":0.94,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.6,"soil_adc":17}
+16:23:52 TELEM {"temperature":27.67,"humidity":51.26,"pressure":1013.11,"altitude":1.14,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.4,"soil_adc":9}
+16:23:55 TELEM {"temperature":27.67,"humidity":51.29,"pressure":1013.07,"altitude":1.53,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:23:58 TELEM {"temperature":27.67,"humidity":51.31,"pressure":1013.17,"altitude":0.68,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:01 TELEM {"temperature":27.67,"humidity":51.31,"pressure":1013.15,"altitude":0.84,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:04 TELEM {"temperature":27.67,"humidity":51.29,"pressure":1013.11,"altitude":1.14,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:07 TELEM {"temperature":27.67,"humidity":51.28,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:09 [station 1] reading boot 21340 seq 8 queued (queue 1; sent 7 acked 7 dropped 0 duty-waits 0 radio-errors 0; airtime 2135/324000 ms this hour)
+16:24:09 [station 1] held [21340:8]
+16:24:10 [station 1] -> 2 ok (lseq 32710, try 1, rssi -29 snr 12.0, queue 0)
+16:24:10 [station 1] held []
+16:24:10 TELEM {"temperature":27.67,"humidity":51.29,"pressure":1013.15,"altitude":0.84,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:13 TELEM {"temperature":27.67,"humidity":51.30,"pressure":1013.09,"altitude":1.30,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:16 TELEM {"temperature":27.67,"humidity":51.30,"pressure":1013.07,"altitude":1.53,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":4.9,"soil_adc":32}
+16:24:19 TELEM {"temperature":27.66,"humidity":51.30,"pressure":1013.10,"altitude":0.98,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.3,"soil_adc":15}
+16:24:22 TELEM {"temperature":27.64,"humidity":51.34,"pressure":1013.05,"altitude":1.64,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:25 TELEM {"temperature":27.66,"humidity":51.32,"pressure":1013.10,"altitude":1.21,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:28 TELEM {"temperature":27.65,"humidity":51.47,"pressure":1013.14,"altitude":0.89,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:31 TELEM {"temperature":27.64,"humidity":51.38,"pressure":1013.14,"altitude":0.96,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:34 TELEM {"temperature":27.62,"humidity":51.40,"pressure":1013.10,"altitude":1.23,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:37 TELEM {"temperature":27.63,"humidity":51.41,"pressure":1013.12,"altitude":1.09,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:24:40 TELEM {"temperature":27.65,"humidity":51.38,"pressure":1013.09,"altitude":1.35,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:24:43 TELEM {"temperature":27.63,"humidity":51.40,"pressure":1013.12,"altitude":1.09,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.8,"soil_adc":5}
+16:24:46 TELEM {"temperature":27.63,"humidity":51.39,"pressure":1013.11,"altitude":1.16,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:49 TELEM {"temperature":27.66,"humidity":51.38,"pressure":1013.12,"altitude":1.05,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:52 TELEM {"temperature":27.64,"humidity":51.40,"pressure":1013.08,"altitude":1.41,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:55 TELEM {"temperature":27.66,"humidity":51.31,"pressure":1013.19,"altitude":0.52,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:24:58 TELEM {"temperature":27.64,"humidity":51.38,"pressure":1013.14,"altitude":0.96,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:25:01 TELEM {"temperature":27.65,"humidity":51.35,"pressure":1013.14,"altitude":0.89,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.9,"soil_adc":19}
+16:25:04 TELEM {"temperature":27.65,"humidity":51.38,"pressure":1013.14,"altitude":0.89,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:07 TELEM {"temperature":27.64,"humidity":51.36,"pressure":1013.16,"altitude":0.73,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:09 [station 1] reading boot 21340 seq 9 queued (queue 1; sent 8 acked 8 dropped 0 duty-waits 0 radio-errors 0; airtime 2440/324000 ms this hour)
+16:25:09 [station 1] held [21340:9]
+16:25:10 [station 1] -> 2 ok (lseq 32711, try 1, rssi -29 snr 11.0, queue 0)
+16:25:10 [station 1] held []
+16:25:10 TELEM {"temperature":27.66,"humidity":51.35,"pressure":1013.07,"altitude":1.51,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:13 TELEM {"temperature":27.66,"humidity":51.33,"pressure":1013.15,"altitude":0.82,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:16 TELEM {"temperature":27.64,"humidity":51.34,"pressure":1013.13,"altitude":1.02,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:19 TELEM {"temperature":27.63,"humidity":51.36,"pressure":1013.11,"altitude":1.16,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:22 TELEM {"temperature":27.61,"humidity":51.38,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:25 TELEM {"temperature":27.61,"humidity":51.41,"pressure":1013.11,"altitude":1.14,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:28 TELEM {"temperature":27.62,"humidity":51.39,"pressure":1013.07,"altitude":1.53,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.5,"soil_adc":3}
+16:25:31 TELEM {"temperature":27.61,"humidity":51.41,"pressure":1013.09,"altitude":1.37,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.9,"soil_adc":19}
+16:25:34 TELEM {"temperature":27.61,"humidity":51.41,"pressure":1013.09,"altitude":1.37,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:25:37 TELEM {"temperature":27.62,"humidity":51.42,"pressure":1013.09,"altitude":1.30,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.7,"soil_adc":11}
+16:25:40 TELEM {"temperature":27.61,"humidity":51.28,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:43 TELEM {"temperature":27.61,"humidity":51.42,"pressure":1013.06,"altitude":1.60,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:46 TELEM {"temperature":27.60,"humidity":51.42,"pressure":1013.09,"altitude":1.34,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:49 TELEM {"temperature":27.60,"humidity":51.44,"pressure":1013.12,"altitude":1.05,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:52 TELEM {"temperature":27.60,"humidity":51.44,"pressure":1013.12,"altitude":1.05,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:55 TELEM {"temperature":27.60,"humidity":51.27,"pressure":1013.06,"altitude":1.57,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:25:58 TELEM {"temperature":27.60,"humidity":51.46,"pressure":1013.12,"altitude":1.11,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:01 TELEM {"temperature":27.59,"humidity":51.46,"pressure":1013.16,"altitude":0.73,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:04 TELEM {"temperature":27.60,"humidity":51.46,"pressure":1013.12,"altitude":1.11,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:26:07 TELEM {"temperature":27.59,"humidity":51.47,"pressure":1013.11,"altitude":1.19,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.8,"soil_adc":18}
+16:26:09 [station 1] reading boot 21340 seq 10 queued (queue 1; sent 9 acked 9 dropped 0 duty-waits 0 radio-errors 0; airtime 2745/324000 ms this hour)
+16:26:09 [station 1] held [21340:10]
+16:26:10 [station 1] -> 2 ok (lseq 32712, try 1, rssi -29 snr 11.0, queue 0)
+16:26:10 [station 1] held []
+16:26:10 TELEM {"temperature":27.59,"humidity":51.46,"pressure":1013.04,"altitude":1.71,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:13 TELEM {"temperature":27.59,"humidity":51.48,"pressure":1013.15,"altitude":0.80,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:16 TELEM {"temperature":27.58,"humidity":51.50,"pressure":1013.15,"altitude":0.86,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:19 TELEM {"temperature":27.59,"humidity":51.50,"pressure":1013.15,"altitude":0.80,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:22 TELEM {"temperature":27.58,"humidity":51.48,"pressure":1013.08,"altitude":1.39,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:25 TELEM {"temperature":27.58,"humidity":51.50,"pressure":1013.14,"altitude":0.93,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:28 TELEM {"temperature":27.57,"humidity":51.52,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:31 TELEM {"temperature":27.52,"humidity":51.65,"pressure":1013.10,"altitude":1.23,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.2,"soil_adc":14}
+16:26:34 TELEM {"temperature":27.52,"humidity":51.73,"pressure":1013.05,"altitude":1.69,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":4.5,"soil_adc":29}
+16:26:37 TELEM {"temperature":27.53,"humidity":51.74,"pressure":1013.17,"altitude":0.70,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.6,"soil_adc":17}
+16:26:40 TELEM {"temperature":27.52,"humidity":51.79,"pressure":1013.13,"altitude":1.00,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:43 TELEM {"temperature":27.52,"humidity":51.76,"pressure":1013.13,"altitude":1.00,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:46 TELEM {"temperature":27.52,"humidity":51.76,"pressure":1013.15,"altitude":0.84,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:49 TELEM {"temperature":27.52,"humidity":51.69,"pressure":1013.05,"altitude":1.69,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:52 TELEM {"temperature":27.54,"humidity":51.70,"pressure":1013.13,"altitude":1.02,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:55 TELEM {"temperature":27.57,"humidity":51.65,"pressure":1013.09,"altitude":1.30,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:26:58 TELEM {"temperature":27.56,"humidity":51.77,"pressure":1013.09,"altitude":1.37,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.7,"soil_adc":11}
+16:27:01 TELEM {"temperature":27.56,"humidity":51.58,"pressure":1013.11,"altitude":1.21,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":4.2,"soil_adc":27}
+16:27:04 TELEM {"temperature":27.57,"humidity":51.56,"pressure":1013.13,"altitude":1.00,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:27:07 TELEM {"temperature":27.59,"humidity":51.54,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.5,"soil_adc":10}
+16:27:09 [station 1] reading boot 21340 seq 11 queued (queue 1; sent 10 acked 10 dropped 0 duty-waits 0 radio-errors 0; airtime 3050/324000 ms this hour)
+16:27:09 [station 1] held [21340:11]
+16:27:10 [station 1] -> 2 ok (lseq 32713, try 1, rssi -29 snr 11.0, queue 0)
+16:27:10 [station 1] held []
+16:27:10 TELEM {"temperature":27.59,"humidity":51.54,"pressure":1013.11,"altitude":1.19,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:13 TELEM {"temperature":27.60,"humidity":51.26,"pressure":1013.12,"altitude":1.11,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:16 TELEM {"temperature":27.61,"humidity":51.51,"pressure":1013.11,"altitude":1.14,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:19 TELEM {"temperature":27.59,"humidity":51.51,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:22 TELEM {"temperature":27.59,"humidity":51.52,"pressure":1013.15,"altitude":0.80,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:25 TELEM {"temperature":27.60,"humidity":51.51,"pressure":1013.06,"altitude":1.57,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:29 TELEM {"temperature":27.60,"humidity":51.52,"pressure":1013.10,"altitude":1.27,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:31 TELEM {"temperature":27.60,"humidity":51.50,"pressure":1013.12,"altitude":1.11,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:34 TELEM {"temperature":27.61,"humidity":51.49,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.0,"soil_adc":13}
+16:27:37 TELEM {"temperature":27.60,"humidity":51.49,"pressure":1013.07,"altitude":1.50,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.3,"soil_adc":15}
+16:27:41 TELEM {"temperature":27.61,"humidity":51.45,"pressure":1013.10,"altitude":1.21,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.7,"soil_adc":11}
+16:27:44 TELEM {"temperature":27.60,"humidity":51.45,"pressure":1013.14,"altitude":0.89,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.8,"soil_adc":5}
+16:27:46 TELEM {"temperature":27.60,"humidity":51.49,"pressure":1013.07,"altitude":1.50,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:49 TELEM {"temperature":27.60,"humidity":51.47,"pressure":1013.12,"altitude":1.05,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:53 TELEM {"temperature":27.59,"humidity":51.50,"pressure":1013.05,"altitude":1.64,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:56 TELEM {"temperature":27.59,"humidity":51.51,"pressure":1013.16,"altitude":0.73,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:27:59 TELEM {"temperature":27.59,"humidity":51.51,"pressure":1013.14,"altitude":0.96,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:02 TELEM {"temperature":27.60,"humidity":51.47,"pressure":1013.12,"altitude":1.11,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:05 TELEM {"temperature":27.59,"humidity":51.53,"pressure":1013.07,"altitude":1.48,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.8,"soil_adc":5}
+16:28:08 TELEM {"temperature":27.60,"humidity":51.50,"pressure":1013.06,"altitude":1.57,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.7,"soil_adc":11}
+16:28:09 [station 1] reading boot 21340 seq 12 queued (queue 1; sent 11 acked 11 dropped 0 duty-waits 0 radio-errors 0; airtime 3355/324000 ms this hour)
+16:28:09 [station 1] held [21340:12]
+16:28:10 [station 1] -> 2 ok (lseq 32714, try 1, rssi -29 snr 11.0, queue 0)
+16:28:10 [station 1] held []
+16:28:11 TELEM {"temperature":27.58,"humidity":51.52,"pressure":1013.17,"altitude":0.63,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.2,"soil_adc":14}
+16:28:14 TELEM {"temperature":27.59,"humidity":51.51,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.5,"soil_adc":3}
+16:28:17 TELEM {"temperature":27.59,"humidity":51.52,"pressure":1013.13,"altitude":1.02,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.2,"soil_adc":1}
+16:28:20 TELEM {"temperature":27.58,"humidity":51.55,"pressure":1013.14,"altitude":0.93,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:23 TELEM {"temperature":27.57,"humidity":51.56,"pressure":1013.07,"altitude":1.52,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:26 TELEM {"temperature":27.57,"humidity":51.57,"pressure":1013.18,"altitude":0.61,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:29 TELEM {"temperature":27.59,"humidity":51.56,"pressure":1013.15,"altitude":0.80,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:32 TELEM {"temperature":27.58,"humidity":51.55,"pressure":1013.09,"altitude":1.32,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:35 TELEM {"temperature":27.58,"humidity":51.55,"pressure":1013.15,"altitude":0.86,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:38 TELEM {"temperature":27.59,"humidity":51.55,"pressure":1013.15,"altitude":0.80,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:41 TELEM {"temperature":27.59,"humidity":51.56,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:44 TELEM {"temperature":27.59,"humidity":51.55,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:47 TELEM {"temperature":27.59,"humidity":51.54,"pressure":1013.13,"altitude":1.02,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:28:50 TELEM {"temperature":27.58,"humidity":51.55,"pressure":1013.09,"altitude":1.32,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.8,"soil_adc":5}
+16:28:53 TELEM {"temperature":27.58,"humidity":51.54,"pressure":1013.09,"altitude":1.32,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.1,"soil_adc":7}
+16:28:56 TELEM {"temperature":27.57,"humidity":51.55,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:28:59 TELEM {"temperature":27.56,"humidity":51.57,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.3,"soil_adc":15}
+16:29:02 TELEM {"temperature":27.58,"humidity":51.60,"pressure":1013.11,"altitude":1.16,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:29:05 TELEM {"temperature":27.57,"humidity":51.58,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.6,"soil_adc":4}
+16:29:08 TELEM {"temperature":27.59,"humidity":51.59,"pressure":1013.08,"altitude":1.41,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:09 [station 1] reading boot 21340 seq 13 queued (queue 1; sent 12 acked 12 dropped 0 duty-waits 0 radio-errors 0; airtime 3660/324000 ms this hour)
+16:29:09 [station 1] held [21340:13]
+16:29:10 [station 1] -> 2 ok (lseq 32715, try 1, rssi -29 snr 10.0, queue 0)
+16:29:10 [station 1] held []
+16:29:11 TELEM {"temperature":27.58,"humidity":51.56,"pressure":1013.11,"altitude":1.16,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:14 TELEM {"temperature":27.59,"humidity":51.58,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:17 TELEM {"temperature":27.60,"humidity":51.55,"pressure":1013.17,"altitude":0.66,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:20 TELEM {"temperature":27.60,"humidity":51.53,"pressure":1013.06,"altitude":1.57,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:23 TELEM {"temperature":27.60,"humidity":51.53,"pressure":1013.12,"altitude":1.11,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:26 TELEM {"temperature":27.59,"humidity":51.53,"pressure":1013.11,"altitude":1.19,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:29 TELEM {"temperature":27.59,"humidity":51.39,"pressure":1013.13,"altitude":1.02,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:32 TELEM {"temperature":27.58,"humidity":51.56,"pressure":1013.08,"altitude":1.39,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:35 TELEM {"temperature":27.58,"humidity":51.58,"pressure":1013.15,"altitude":0.86,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:38 TELEM {"temperature":27.57,"humidity":51.61,"pressure":1013.10,"altitude":1.23,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:41 TELEM {"temperature":27.58,"humidity":51.60,"pressure":1013.12,"altitude":1.09,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.2,"soil_adc":1}
+16:29:44 TELEM {"temperature":27.58,"humidity":51.57,"pressure":1013.14,"altitude":0.93,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.5,"soil_adc":10}
+16:29:47 TELEM {"temperature":27.58,"humidity":51.59,"pressure":1013.09,"altitude":1.32,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.4,"soil_adc":9}
+16:29:50 TELEM {"temperature":27.57,"humidity":51.58,"pressure":1013.10,"altitude":1.23,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.9,"soil_adc":6}
+16:29:53 TELEM {"temperature":27.57,"humidity":51.60,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:56 TELEM {"temperature":27.59,"humidity":51.58,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:29:59 TELEM {"temperature":27.57,"humidity":51.56,"pressure":1013.10,"altitude":1.23,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:02 TELEM {"temperature":27.57,"humidity":51.57,"pressure":1013.13,"altitude":1.00,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:05 TELEM {"temperature":27.56,"humidity":51.59,"pressure":1013.11,"altitude":1.21,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:08 TELEM {"temperature":27.57,"humidity":51.58,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.9,"soil_adc":6}
+16:30:09 [station 1] reading boot 21340 seq 14 queued (queue 1; sent 13 acked 13 dropped 0 duty-waits 0 radio-errors 0; airtime 3965/324000 ms this hour)
+16:30:09 [station 1] held [21340:14]
+16:30:10 [station 1] -> 2 ok (lseq 32716, try 1, rssi -30 snr 11.0, queue 0)
+16:30:10 [station 1] held []
+16:30:11 TELEM {"temperature":27.57,"humidity":51.60,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.2,"soil_adc":8}
+16:30:14 TELEM {"temperature":27.57,"humidity":51.61,"pressure":1013.10,"altitude":1.23,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:17 TELEM {"temperature":27.58,"humidity":51.60,"pressure":1013.14,"altitude":1.16,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:20 TELEM {"temperature":27.58,"humidity":51.61,"pressure":1013.14,"altitude":0.93,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:23 TELEM {"temperature":27.57,"humidity":51.60,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.0,"soil_adc":13}
+16:30:26 TELEM {"temperature":27.57,"humidity":51.49,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.8,"soil_adc":5}
+16:30:29 TELEM {"temperature":27.58,"humidity":51.58,"pressure":1013.14,"altitude":0.93,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:32 TELEM {"temperature":27.58,"humidity":51.62,"pressure":1013.09,"altitude":1.32,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:35 TELEM {"temperature":27.57,"humidity":51.61,"pressure":1013.09,"altitude":1.30,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:38 TELEM {"temperature":27.57,"humidity":51.60,"pressure":1013.05,"altitude":1.69,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.7,"soil_adc":11}
+16:30:41 TELEM {"temperature":27.56,"humidity":51.62,"pressure":1013.11,"altitude":1.21,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.0,"soil_adc":13}
+16:30:44 TELEM {"temperature":27.56,"humidity":51.63,"pressure":1013.13,"altitude":0.98,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:47 TELEM {"temperature":27.56,"humidity":51.65,"pressure":1013.08,"altitude":1.44,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:50 TELEM {"temperature":27.54,"humidity":51.66,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:53 TELEM {"temperature":27.54,"humidity":51.70,"pressure":1013.07,"altitude":1.48,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:30:56 TELEM {"temperature":27.54,"humidity":51.70,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:30:59 TELEM {"temperature":27.56,"humidity":51.69,"pressure":1013.16,"altitude":0.75,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.6,"soil_adc":4}
+16:31:02 TELEM {"temperature":27.54,"humidity":51.71,"pressure":1013.19,"altitude":0.50,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:05 TELEM {"temperature":27.54,"humidity":51.73,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:08 TELEM {"temperature":27.54,"humidity":51.73,"pressure":1013.07,"altitude":1.48,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:09 [station 1] reading boot 21340 seq 15 queued (queue 1; sent 14 acked 14 dropped 0 duty-waits 0 radio-errors 0; airtime 4270/324000 ms this hour)
+16:31:09 [station 1] held [21340:15]
+16:31:10 [station 1] -> 2 ok (lseq 32717, try 1, rssi -30 snr 10.0, queue 0)
+16:31:10 [station 1] held []
+16:31:11 TELEM {"temperature":27.55,"humidity":51.72,"pressure":1013.14,"altitude":0.88,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:14 TELEM {"temperature":27.55,"humidity":51.71,"pressure":1013.12,"altitude":1.11,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:17 TELEM {"temperature":27.56,"humidity":51.69,"pressure":1013.19,"altitude":0.52,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.0,"soil_adc":13}
+16:31:20 TELEM {"temperature":27.56,"humidity":51.69,"pressure":1013.13,"altitude":0.98,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":2.5,"soil_adc":16}
+16:31:23 TELEM {"temperature":27.56,"humidity":52.08,"pressure":1013.14,"altitude":0.91,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:26 TELEM {"temperature":27.55,"humidity":51.71,"pressure":1013.10,"altitude":1.27,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:29 TELEM {"temperature":27.54,"humidity":51.71,"pressure":1013.10,"altitude":1.25,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:32 TELEM {"temperature":27.55,"humidity":51.73,"pressure":1013.23,"altitude":0.20,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:35 TELEM {"temperature":27.55,"humidity":51.70,"pressure":1013.09,"altitude":1.34,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:38 TELEM {"temperature":27.56,"humidity":51.69,"pressure":1013.16,"altitude":0.75,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:41 TELEM {"temperature":27.56,"humidity":51.67,"pressure":1013.06,"altitude":1.60,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:44 TELEM {"temperature":27.57,"humidity":51.68,"pressure":1013.12,"altitude":1.07,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":0.9,"soil_adc":6}
+16:31:47 TELEM {"temperature":27.57,"humidity":51.81,"pressure":1013.13,"altitude":1.00,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":1.9,"soil_adc":12}
+16:31:50 TELEM {"temperature":27.56,"humidity":51.66,"pressure":1013.16,"altitude":0.75,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:53 TELEM {"temperature":27.53,"humidity":51.72,"pressure":1013.14,"altitude":0.93,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:56 TELEM {"temperature":27.53,"humidity":51.73,"pressure":1013.15,"altitude":0.86,"wind_speed":0.00,"wind_dir":0.0,"rain_mm":0.00,"soil_pct":-0.0,"soil_adc":0}
+16:31:59 [station 1] stopped; queue 0
+16:31:59 [bridge] AT lines passed: 34, bytes from E5: 6265

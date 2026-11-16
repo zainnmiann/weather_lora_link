@@ -1,0 +1,79 @@
+12:47:11 [relay 2] up on 869.525 MHz SF9 14 dBm, duty budget 324 s/h, next hop 3
+12:47:16 [relay 2] <- node 1 lseq 30156 rssi=-8 snr=11.0, forwarding to 3
+12:47:18 [relay 2] -> node 3 ok (lseq 24235, hop ack rssi=0 snr=11.0, queue 0)
+12:47:24 [relay 2] <- node 1 lseq 30157 rssi=-7 snr=11.0, forwarding to 3
+12:47:26 [relay 2] -> node 3 ok (lseq 24236, hop ack rssi=0 snr=11.0, queue 0)
+12:47:32 [relay 2] <- node 1 lseq 30158 rssi=-8 snr=11.0, forwarding to 3
+12:47:33 [relay 2] RECOVERING from: injected radio error
+12:47:33 [relay 2] recovered, radio listening again
+12:47:33 [relay 2] RECOVERING from: injected radio error
+12:47:34 [relay 2] recovered, radio listening again
+12:47:35 [relay 2] -> node 3 ok (lseq 24237, hop ack rssi=0 snr=10.0, queue 0)
+12:47:40 [relay 2] <- node 1 lseq 30159 rssi=-7 snr=11.0, forwarding to 3
+12:47:42 [relay 2] -> node 3 ok (lseq 24238, hop ack rssi=0 snr=11.0, queue 0)
+12:47:48 [relay 2] <- node 1 lseq 30160 rssi=-7 snr=12.0, forwarding to 3
+12:47:54 [relay 2] -> node 3 ok (lseq 24239, hop ack rssi=0 snr=10.0, queue 0)
+12:47:56 [relay 2] <- node 1 lseq 30161 rssi=-7 snr=11.0, forwarding to 3
+12:47:58 [relay 2] -> node 3 ok (lseq 24240, hop ack rssi=0 snr=11.0, queue 0)
+12:48:05 [relay 2] <- node 1 lseq 30162 rssi=-6 snr=11.0, forwarding to 3
+12:48:06 [relay 2] -> node 3 ok (lseq 24241, hop ack rssi=0 snr=11.0, queue 0)
+12:48:12 [relay 2] <- node 1 lseq 30163 rssi=-6 snr=10.0, forwarding to 3
+12:48:14 [relay 2] -> node 3 ok (lseq 24242, hop ack rssi=0 snr=11.0, queue 0)
+12:48:20 [relay 2] <- node 1 lseq 30164 rssi=-7 snr=11.0, forwarding to 3
+12:48:22 [relay 2] -> node 3 ok (lseq 24243, hop ack rssi=0 snr=11.0, queue 0)
+12:48:28 [relay 2] <- node 1 lseq 30165 rssi=-6 snr=11.0, forwarding to 3
+12:48:28 [relay 2] RECOVERING from: injected radio error
+12:48:29 [relay 2] recovered, radio listening again
+12:48:30 [relay 2] -> node 3 ok (lseq 24244, hop ack rssi=0 snr=11.0, queue 0)
+12:48:32 [relay 2] <- node 1 repeat lseq 30165 (our ack was lost), re-acked
+12:48:36 [relay 2] <- node 1 lseq 30166 rssi=-7 snr=11.0, forwarding to 3
+12:48:37 [relay 2] RECOVERING from: injected radio error
+12:48:37 [relay 2] recovered, radio listening again
+12:48:38 [relay 2] -> node 3 ok (lseq 24245, hop ack rssi=0 snr=11.0, queue 0)
+12:48:44 [relay 2] <- node 1 lseq 30167 rssi=-7 snr=11.0, forwarding to 3
+12:48:46 [relay 2] -> node 3 ok (lseq 24246, hop ack rssi=0 snr=11.0, queue 0)
+12:48:52 [relay 2] <- node 1 lseq 30168 rssi=-7 snr=10.0, forwarding to 3
+12:48:54 [relay 2] -> node 3 ok (lseq 24247, hop ack rssi=-2 snr=10.0, queue 0)
+12:49:00 [relay 2] <- node 1 lseq 30169 rssi=-8 snr=10.0, forwarding to 3
+12:49:02 [relay 2] -> node 3 ok (lseq 24248, hop ack rssi=0 snr=11.0, queue 0)
+12:49:09 [relay 2] <- node 1 lseq 30170 rssi=-7 snr=11.0, forwarding to 3
+12:49:10 [relay 2] -> node 3 ok (lseq 24249, hop ack rssi=0 snr=10.0, queue 0)
+12:49:16 [relay 2] <- node 1 lseq 30171 rssi=-7 snr=11.0, forwarding to 3
+12:49:18 [relay 2] -> node 3 ok (lseq 24250, hop ack rssi=-1 snr=11.0, queue 0)
+12:49:24 [relay 2] <- node 1 lseq 30172 rssi=-7 snr=10.0, forwarding to 3
+12:49:24 [relay 2] RECOVERING from: injected radio error
+12:49:25 [relay 2] recovered, radio listening again
+12:49:26 [relay 2] -> node 3 ok (lseq 24251, hop ack rssi=0 snr=10.0, queue 0)
+12:49:28 [relay 2] <- node 1 repeat lseq 30172 (our ack was lost), re-acked
+12:49:32 [relay 2] <- node 1 lseq 30173 rssi=-7 snr=10.0, forwarding to 3
+12:49:34 [relay 2] -> node 3 ok (lseq 24252, hop ack rssi=0 snr=10.0, queue 0)
+12:49:40 [relay 2] <- node 1 lseq 30174 rssi=-7 snr=12.0, forwarding to 3
+12:49:42 [relay 2] -> node 3 ok (lseq 24253, hop ack rssi=0 snr=11.0, queue 0)
+12:49:48 [relay 2] <- node 1 lseq 30175 rssi=-7 snr=10.0, forwarding to 3
+12:49:50 [relay 2] -> node 3 ok (lseq 24254, hop ack rssi=0 snr=11.0, queue 0)
+12:49:56 [relay 2] <- node 1 lseq 30176 rssi=-7 snr=10.0, forwarding to 3
+12:49:58 [relay 2] -> node 3 ok (lseq 24255, hop ack rssi=0 snr=10.0, queue 0)
+12:50:04 [relay 2] <- node 1 lseq 30177 rssi=-7 snr=11.0, forwarding to 3
+12:50:06 [relay 2] -> node 3 ok (lseq 24256, hop ack rssi=0 snr=11.0, queue 0)
+12:50:13 [relay 2] <- node 1 lseq 30178 rssi=-7 snr=11.0, forwarding to 3
+12:50:14 [relay 2] -> node 3 ok (lseq 24257, hop ack rssi=0 snr=11.0, queue 0)
+12:50:20 [relay 2] <- node 1 lseq 30179 rssi=-8 snr=11.0, forwarding to 3
+12:50:22 [relay 2] -> node 3 ok (lseq 24258, hop ack rssi=0 snr=10.0, queue 0)
+12:50:28 [relay 2] <- node 1 lseq 30180 rssi=-7 snr=11.0, forwarding to 3
+12:50:34 [relay 2] -> node 3 ok (lseq 24259, hop ack rssi=0 snr=11.0, queue 0)
+12:50:36 [relay 2] <- node 1 lseq 30181 rssi=-7 snr=11.0, forwarding to 3
+12:50:38 [relay 2] -> node 3 ok (lseq 24260, hop ack rssi=0 snr=10.0, queue 0)
+12:50:44 [relay 2] <- node 1 lseq 30182 rssi=-7 snr=11.0, forwarding to 3
+12:50:46 [relay 2] -> node 3 ok (lseq 24261, hop ack rssi=0 snr=11.0, queue 0)
+12:50:52 [relay 2] <- node 1 lseq 30183 rssi=-8 snr=11.0, forwarding to 3
+12:50:54 [relay 2] -> node 3 ok (lseq 24262, hop ack rssi=0 snr=10.0, queue 0)
+12:51:00 [relay 2] <- node 1 lseq 30184 rssi=-7 snr=11.0, forwarding to 3
+12:51:02 [relay 2] -> node 3 ok (lseq 24263, hop ack rssi=0 snr=11.0, queue 0)
+12:51:08 [relay 2] <- node 1 lseq 30185 rssi=-8 snr=11.0, forwarding to 3
+12:51:08 [relay 2] RECOVERING from: injected radio error
+12:51:09 [relay 2] recovered, radio listening again
+12:51:12 [relay 2] <- node 1 repeat lseq 30185 (our ack was lost), re-acked
+12:51:13 [relay 2] RECOVERING from: injected radio error
+12:51:13 [relay 2] recovered, radio listening again
+12:51:15 [relay 2] -> node 3 ok (lseq 24264, hop ack rssi=0 snr=10.0, queue 0)
+12:53:16 [relay 2] stopped; queue 0; stats {"sent": 33, "acked": 30, "retries": 3, "fwd_in": 30, "dup_in": 3, "delivered": 0, "recoveries": 7, "duty_waits": 0, "airtime_s": 14.86, "faults": 7}

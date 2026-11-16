@@ -1,0 +1,16 @@
+readings made           : 1
+delivered (unique)      : 1   hop counts seen: [2]
+still queued at stop    : station 0, relays 0
+missing                 : 0 []
+  of which unexplained  : 0 []   (missing and not held by any node)
+duplicates delivered    : 0 []
+phantom deliveries      : 0 []
+delivery order preserved: True
+latency s (min/median/max): 2 / 2 / 2
+log events:
+  station               : none
+                          queue 0
+  gateway               : none
+                          queue 0; stats {"sent": 0, "acked": 0, "retries": 0, "fwd_in": 1, "dup_in": 0, "delivered": 1, "recoveries": 0, "duty_waits": 0, "airtime_s": 0.16, "faults": 0, "dropped": 0, "refused_duty": 0, "published": 0, "unexpected_errors": 0}
+  relay(relay.log)      : none
+RESULT: PASS

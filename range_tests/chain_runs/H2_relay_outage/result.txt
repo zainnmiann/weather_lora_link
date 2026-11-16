@@ -1,0 +1,18 @@
+readings made           : 30
+delivered (unique)      : 30   hop counts seen: [2]
+still queued at stop    : station 0, relays 0
+missing                 : 0 []
+  of which unexplained  : 0   (missing beyond what was still queued)
+duplicates delivered    : 0 []
+phantom deliveries      : 0 []
+delivery order preserved: True
+latency s (min/median/max): 1 / 70 / 109
+log events:
+  station               : {'next hop unreachable': 3}
+                          queue 0; stats {"sent": 56, "acked": 30, "retries": 26, "fwd_in": 0, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 17.03, "faults": 0}
+  gateway               : none
+                          queue 0; stats {"sent": 0, "acked": 0, "retries": 0, "fwd_in": 30, "dup_in": 0, "delivered": 30, "recoveries": 0, "duty_waits": 0, "airtime_s": 4.82, "faults": 0}
+  relay(relay.log)      : none
+                          queue 0; stats {"sent": 8, "acked": 8, "retries": 0, "fwd_in": 8, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 3.72, "faults": 0}
+                          queue 0; stats {"sent": 22, "acked": 22, "retries": 0, "fwd_in": 22, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 10.23, "faults": 0}
+RESULT: PASS

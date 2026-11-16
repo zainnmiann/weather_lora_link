@@ -1,0 +1,30 @@
+16:17:09 [relay 2] <- node 1 lseq 32703 rssi=-29 snr=11.0, forwarding to 3
+16:17:11 [relay 2] -> node 3 ok (lseq 51803, hop ack rssi=-56 snr=11.0, queue 0)
+16:18:09 [relay 2] <- node 1 lseq 32704 rssi=-29 snr=11.0, forwarding to 3
+16:18:11 [relay 2] -> node 3 ok (lseq 51804, hop ack rssi=-36 snr=11.0, queue 0)
+16:19:09 [relay 2] <- node 1 lseq 32705 rssi=-28 snr=11.0, forwarding to 3
+16:19:11 [relay 2] -> node 3 ok (lseq 51805, hop ack rssi=-47 snr=11.0, queue 0)
+16:20:09 [relay 2] <- node 1 lseq 32706 rssi=-29 snr=11.0, forwarding to 3
+16:20:11 [relay 2] -> node 3 ok (lseq 51806, hop ack rssi=-32 snr=10.0, queue 0)
+16:21:09 [relay 2] <- node 1 lseq 32707 rssi=-28 snr=11.0, forwarding to 3
+16:21:11 [relay 2] -> node 3 ok (lseq 51807, hop ack rssi=-44 snr=10.0, queue 0)
+16:22:09 [relay 2] <- node 1 lseq 32708 rssi=-28 snr=11.0, forwarding to 3
+16:22:11 [relay 2] -> node 3 ok (lseq 51808, hop ack rssi=-43 snr=11.0, queue 0)
+16:23:09 [relay 2] <- node 1 lseq 32709 rssi=-28 snr=11.0, forwarding to 3
+16:23:11 [relay 2] -> node 3 ok (lseq 51809, hop ack rssi=-40 snr=11.0, queue 0)
+16:24:09 [relay 2] <- node 1 lseq 32710 rssi=-28 snr=11.0, forwarding to 3
+16:24:11 [relay 2] -> node 3 ok (lseq 51810, hop ack rssi=-40 snr=10.0, queue 0)
+16:25:09 [relay 2] <- node 1 lseq 32711 rssi=-28 snr=10.0, forwarding to 3
+16:25:11 [relay 2] -> node 3 ok (lseq 51811, hop ack rssi=-42 snr=11.0, queue 0)
+16:26:09 [relay 2] <- node 1 lseq 32712 rssi=-27 snr=11.0, forwarding to 3
+16:26:11 [relay 2] -> node 3 ok (lseq 51812, hop ack rssi=-43 snr=11.0, queue 0)
+16:27:09 [relay 2] <- node 1 lseq 32713 rssi=-29 snr=11.0, forwarding to 3
+16:27:11 [relay 2] -> node 3 ok (lseq 51813, hop ack rssi=-43 snr=11.0, queue 0)
+16:28:09 [relay 2] <- node 1 lseq 32714 rssi=-29 snr=10.0, forwarding to 3
+16:28:11 [relay 2] -> node 3 ok (lseq 51814, hop ack rssi=-45 snr=11.0, queue 0)
+16:29:09 [relay 2] <- node 1 lseq 32715 rssi=-29 snr=11.0, forwarding to 3
+16:29:11 [relay 2] -> node 3 ok (lseq 51815, hop ack rssi=-46 snr=11.0, queue 0)
+16:30:09 [relay 2] <- node 1 lseq 32716 rssi=-28 snr=11.0, forwarding to 3
+16:30:11 [relay 2] -> node 3 ok (lseq 51816, hop ack rssi=-44 snr=11.0, queue 0)
+16:31:09 [relay 2] <- node 1 lseq 32717 rssi=-29 snr=11.0, forwarding to 3
+16:31:11 [relay 2] -> node 3 ok (lseq 51817, hop ack rssi=-40 snr=11.0, queue 0)

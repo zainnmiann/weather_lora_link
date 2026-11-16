@@ -1,0 +1,93 @@
+12:39:07 [relay 2] up on 869.525 MHz SF9 14 dBm, duty budget 324 s/h, next hop 3
+12:39:12 [relay 2] <- node 1 lseq 20850 rssi=-6 snr=11.0, forwarding to 3
+12:39:13 [relay 2] -> node 3 ok (lseq 37241, hop ack rssi=0 snr=11.0, queue 0)
+12:39:20 [relay 2] <- node 1 lseq 20851 rssi=-6 snr=10.0, forwarding to 3
+12:39:20 [relay 2] [fault] not acknowledging node 1 lseq 20851
+12:39:25 [relay 2] <- node 1 repeat lseq 20851 (our ack was lost), re-acked
+12:39:28 [relay 2] <- node 1 lseq 20852 rssi=-6 snr=11.0, forwarding to 3
+12:39:29 [relay 2] -> node 3 ok (lseq 37242, hop ack rssi=0 snr=11.0, queue 1)
+12:39:31 [relay 2] -> node 3 ok (lseq 37243, hop ack rssi=0 snr=11.0, queue 0)
+12:39:36 [relay 2] [fault] ignored packet from node 1 lseq 20853
+12:39:40 [relay 2] [fault] ignored packet from node 1 lseq 20853
+12:39:44 [relay 2] <- node 1 lseq 20853 rssi=-6 snr=10.0, forwarding to 3
+12:39:45 [relay 2] -> node 3 ok (lseq 37244, hop ack rssi=0 snr=11.0, queue 0)
+12:39:49 [relay 2] <- node 1 lseq 20854 rssi=-7 snr=10.0, forwarding to 3
+12:39:49 [relay 2] [fault] not acknowledging node 1 lseq 20854
+12:39:53 [relay 2] <- node 1 repeat lseq 20854 (our ack was lost), re-acked
+12:39:55 [relay 2] -> node 3 ok (lseq 37245, hop ack rssi=0 snr=11.0, queue 0)
+12:39:58 [relay 2] <- node 1 lseq 20855 rssi=-6 snr=10.0, forwarding to 3
+12:40:00 [relay 2] -> node 3 ok (lseq 37246, hop ack rssi=0 snr=11.0, queue 0)
+12:40:04 [relay 2] <- node 1 lseq 20856 rssi=-6 snr=10.0, forwarding to 3
+12:40:04 [relay 2] [fault] not acknowledging node 1 lseq 20856
+12:40:05 [relay 2] -> node 3 ok (lseq 37247, hop ack rssi=0 snr=11.0, queue 0)
+12:40:07 [relay 2] [fault] ignored packet from node 1 lseq 20856
+12:40:45 [relay 2] <- node 1 repeat lseq 20856 (our ack was lost), re-acked
+12:40:46 [relay 2] <- node 1 lseq 20857 rssi=-6 snr=10.0, forwarding to 3
+12:40:46 [relay 2] [fault] not acknowledging node 1 lseq 20857
+12:40:51 [relay 2] <- node 1 repeat lseq 20857 (our ack was lost), re-acked
+12:40:51 [relay 2] [fault] not acknowledging node 1 lseq 20857
+12:40:57 [relay 2] -> node 3 unreachable after 3 tries; kept, retrying in 34s (queue 1)
+12:41:35 [relay 2] -> node 3 unreachable after 4 tries; kept, retrying in 36s (queue 1)
+12:41:58 [relay 2] <- node 1 repeat lseq 20857 (our ack was lost), re-acked
+12:41:59 [relay 2] <- node 1 lseq 20858 rssi=-6 snr=11.0, forwarding to 3
+12:41:59 [relay 2] [fault] not acknowledging node 1 lseq 20858
+12:42:03 [relay 2] <- node 1 repeat lseq 20858 (our ack was lost), re-acked
+12:42:03 [relay 2] [fault] not acknowledging node 1 lseq 20858
+12:42:07 [relay 2] <- node 1 repeat lseq 20858 (our ack was lost), re-acked
+12:42:07 [relay 2] [fault] not acknowledging node 1 lseq 20858
+12:42:12 [relay 2] -> node 3 ok (lseq 37248, hop ack rssi=0 snr=10.0, queue 1)
+12:42:13 [relay 2] -> node 3 ok (lseq 37249, hop ack rssi=0 snr=11.0, queue 0)
+12:42:41 [relay 2] [fault] ignored packet from node 1 lseq 20858
+12:43:09 [relay 2] <- node 1 repeat lseq 20858 (our ack was lost), re-acked
+12:43:10 [relay 2] <- node 1 lseq 20859 rssi=-7 snr=11.0, forwarding to 3
+12:43:10 [relay 2] [fault] not acknowledging node 1 lseq 20859
+12:43:11 [relay 2] -> node 3 ok (lseq 37250, hop ack rssi=0 snr=11.0, queue 0)
+12:43:14 [relay 2] <- node 1 repeat lseq 20859 (our ack was lost), re-acked
+12:43:15 [relay 2] <- node 1 lseq 20860 rssi=-6 snr=11.0, forwarding to 3
+12:43:27 [relay 2] -> node 3 unreachable after 3 tries; kept, retrying in 21s (queue 1)
+12:43:52 [relay 2] -> node 3 unreachable after 4 tries; kept, retrying in 24s (queue 1)
+12:43:54 [relay 2] <- node 1 lseq 20861 rssi=-7 snr=10.0, forwarding to 3
+12:43:56 [relay 2] <- node 1 lseq 20862 rssi=-7 snr=11.0, forwarding to 3
+12:43:57 [relay 2] <- node 1 lseq 20863 rssi=-7 snr=11.0, forwarding to 3
+12:43:58 [relay 2] <- node 1 lseq 20864 rssi=-6 snr=11.0, forwarding to 3
+12:44:00 [relay 2] <- node 1 lseq 20865 rssi=-7 snr=11.0, forwarding to 3
+12:44:01 [relay 2] <- node 1 lseq 20866 rssi=-7 snr=11.0, forwarding to 3
+12:44:02 [relay 2] [fault] ignored packet from node 1 lseq 20867
+12:44:06 [relay 2] <- node 1 lseq 20867 rssi=-7 snr=10.0, forwarding to 3
+12:44:08 [relay 2] <- node 1 lseq 20868 rssi=-8 snr=11.0, forwarding to 3
+12:44:08 [relay 2] [fault] not acknowledging node 1 lseq 20868
+12:44:12 [relay 2] <- node 1 repeat lseq 20868 (our ack was lost), re-acked
+12:44:13 [relay 2] <- node 1 lseq 20869 rssi=-7 snr=10.0, forwarding to 3
+12:44:15 [relay 2] <- node 1 lseq 20870 rssi=-7 snr=11.0, forwarding to 3
+12:44:16 [relay 2] <- node 1 lseq 20871 rssi=-7 snr=11.0, forwarding to 3
+12:44:18 [relay 2] -> node 3 ok (lseq 37251, hop ack rssi=0 snr=11.0, queue 11)
+12:44:22 [relay 2] <- node 1 lseq 20872 rssi=-7 snr=10.0, forwarding to 3
+12:44:23 [relay 2] -> node 3 ok (lseq 37252, hop ack rssi=0 snr=11.0, queue 11)
+12:44:24 [relay 2] -> node 3 ok (lseq 37253, hop ack rssi=0 snr=11.0, queue 10)
+12:44:26 [relay 2] -> node 3 ok (lseq 37254, hop ack rssi=0 snr=11.0, queue 9)
+12:44:27 [relay 2] -> node 3 ok (lseq 37255, hop ack rssi=0 snr=8.0, queue 8)
+12:44:31 [relay 2] [fault] ignored packet from node 1 lseq 20873
+12:44:32 [relay 2] -> node 3 ok (lseq 37256, hop ack rssi=0 snr=11.0, queue 7)
+12:44:33 [relay 2] -> node 3 ok (lseq 37257, hop ack rssi=0 snr=11.0, queue 6)
+12:44:35 [relay 2] -> node 3 ok (lseq 37258, hop ack rssi=0 snr=10.0, queue 5)
+12:44:36 [relay 2] -> node 3 ok (lseq 37259, hop ack rssi=0 snr=10.0, queue 4)
+12:44:37 [relay 2] -> node 3 ok (lseq 37260, hop ack rssi=0 snr=11.0, queue 3)
+12:44:39 [relay 2] -> node 3 ok (lseq 37261, hop ack rssi=0 snr=11.0, queue 2)
+12:44:40 [relay 2] -> node 3 ok (lseq 37262, hop ack rssi=0 snr=10.0, queue 1)
+12:44:41 [relay 2] -> node 3 ok (lseq 37263, hop ack rssi=0 snr=11.0, queue 0)
+12:45:05 [relay 2] [fault] ignored packet from node 1 lseq 20873
+12:45:43 [relay 2] <- node 1 lseq 20873 rssi=-7 snr=10.0, forwarding to 3
+12:45:44 [relay 2] -> node 3 ok (lseq 37264, hop ack rssi=0 snr=11.0, queue 0)
+12:45:48 [relay 2] <- node 1 lseq 20874 rssi=-5 snr=10.0, forwarding to 3
+12:45:58 [relay 2] -> node 3 ok (lseq 37265, hop ack rssi=0 snr=11.0, queue 0)
+12:46:36 [relay 2] <- node 1 lseq 20875 rssi=-7 snr=11.0, forwarding to 3
+12:46:37 [relay 2] -> node 3 ok (lseq 37266, hop ack rssi=0 snr=11.0, queue 0)
+12:46:41 [relay 2] <- node 1 lseq 20876 rssi=-7 snr=11.0, forwarding to 3
+12:46:43 [relay 2] -> node 3 ok (lseq 37267, hop ack rssi=0 snr=11.0, queue 0)
+12:46:47 [relay 2] <- node 1 lseq 20877 rssi=-7 snr=11.0, forwarding to 3
+12:46:48 [relay 2] -> node 3 ok (lseq 37268, hop ack rssi=0 snr=10.0, queue 0)
+12:46:52 [relay 2] <- node 1 lseq 20878 rssi=-7 snr=10.0, forwarding to 3
+12:46:58 [relay 2] -> node 3 ok (lseq 37269, hop ack rssi=0 snr=11.0, queue 0)
+12:47:01 [relay 2] <- node 1 lseq 20879 rssi=-7 snr=10.0, forwarding to 3
+12:47:07 [relay 2] -> node 3 ok (lseq 37270, hop ack rssi=0 snr=10.0, queue 0)
+12:47:10 [relay 2] stopped; queue 0; stats {"sent": 47, "acked": 30, "retries": 17, "fwd_in": 30, "dup_in": 10, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 19.12, "faults": 17}

@@ -1,0 +1,17 @@
+readings made           : 154
+delivered (unique)      : 45   hop counts seen: [2]
+still queued at stop    : station 109, relays 0
+missing                 : 109 [('43619', 46), ('43619', 47), ('43619', 48), ('43619', 49), ('43619', 50), ('43619', 51), ('43619', 52), ('43619', 53), ('43619', 54), ('43619', 55)]
+  of which unexplained  : 0   (missing beyond what was still queued)
+duplicates delivered    : 0 []
+phantom deliveries      : 0 []
+delivery order preserved: True
+latency s (min/median/max): 2 / 89 / 180
+log events:
+  station               : none
+                          queue 109; stats {"sent": 90, "acked": 45, "retries": 45, "fwd_in": 0, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 27.37, "faults": 0}
+  gateway               : none
+                          queue 0; stats {"sent": 0, "acked": 0, "retries": 0, "fwd_in": 45, "dup_in": 0, "delivered": 45, "recoveries": 0, "duty_waits": 0, "airtime_s": 7.23, "faults": 0}
+  relay(relay.log)      : none
+                          queue 0; stats {"sent": 45, "acked": 45, "retries": 0, "fwd_in": 45, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 20.92, "faults": 0}
+RESULT: PASS-UNDRAINED (correct, but 109 reading(s) had not arrived when the run ended)

@@ -1,0 +1,2 @@
+16:15:25 [relay 2] <- node 1 lseq 9906 rssi=-28 snr=11.0, forwarding to 3
+16:15:26 [relay 2] -> node 3 ok (lseq 51802, hop ack rssi=-46 snr=11.0, queue 0)

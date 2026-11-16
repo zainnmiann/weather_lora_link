@@ -1,0 +1,94 @@
+18:18:27 [station 1] telemetry: listening on /dev/cu.usbserial-6
+18:18:29 [station 1] up on 869.525 MHz SF9 14 dBm, duty budget 324 s/h, next hop 2
+18:18:29 [station 1] source TELEM {}
+18:18:29 [station 1] reading boot 29374 seq 1 queued (queue 1) {"station": 1, "boot": 29374, "seq": 1, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:18:30 [station 1] -> node 2 ok (lseq 48408, hop ack rssi=-11 snr=11.0, queue 0)
+18:19:29 [station 1] source TELEM {"temperature": 26.1, "humidity": 67.47, "pressure": 1009.24, "altitude": 33.4, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 57}
+18:19:29 [station 1] reading boot 29374 seq 2 queued (queue 1) {"station": 1, "boot": 29374, "seq": 2, "temp_c": 26.1, "rh_pct": 67.47, "press_hpa": 1009.2, "wind_ms": 0.0, "gust_ms": 0.0, "rain_total_mm": 0.0, "soil_pct": 100.0, "lightning_total": 0.0, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+18:19:30 [station 1] -> node 2 ok (lseq 48409, hop ack rssi=-12 snr=11.0, queue 0)
+18:20:29 [station 1] source TELEM {"temperature": 26.12, "humidity": 67.41, "pressure": 1009.19, "altitude": 33.81, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 59}
+18:20:29 [station 1] reading boot 29374 seq 3 queued (queue 1) {"station": 1, "boot": 29374, "seq": 3, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:20:30 [station 1] -> node 2 ok (lseq 48410, hop ack rssi=-11 snr=11.0, queue 0)
+18:21:29 [station 1] source TELEM {"temperature": 26.12, "humidity": 67.41, "pressure": 1009.19, "altitude": 33.81, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 59}
+18:21:29 [station 1] reading boot 29374 seq 4 queued (queue 1) {"station": 1, "boot": 29374, "seq": 4, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:21:30 [station 1] -> node 2 ok (lseq 48411, hop ack rssi=-11 snr=11.0, queue 0)
+18:22:29 [station 1] source TELEM {"temperature": 26.12, "humidity": 67.41, "pressure": 1009.19, "altitude": 33.81, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 59}
+18:22:29 [station 1] reading boot 29374 seq 5 queued (queue 1) {"station": 1, "boot": 29374, "seq": 5, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:22:30 [station 1] -> node 2 ok (lseq 48412, hop ack rssi=-10 snr=11.0, queue 0)
+18:23:29 [station 1] source TELEM {"temperature": 26.12, "humidity": 67.41, "pressure": 1009.19, "altitude": 33.81, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 59}
+18:23:29 [station 1] reading boot 29374 seq 6 queued (queue 1) {"station": 1, "boot": 29374, "seq": 6, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:23:30 [station 1] -> node 2 ok (lseq 48413, hop ack rssi=-11 snr=11.0, queue 0)
+18:24:29 [station 1] source TELEM {"temperature": 27.47, "humidity": 62.41, "pressure": 1009.28, "altitude": 33.14, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 30}
+18:24:29 [station 1] reading boot 29374 seq 7 queued (queue 1) {"station": 1, "boot": 29374, "seq": 7, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:24:30 [station 1] -> node 2 ok (lseq 48414, hop ack rssi=-11 snr=11.0, queue 0)
+18:25:29 [station 1] source TELEM {"temperature": 27.47, "humidity": 62.41, "pressure": 1009.28, "altitude": 33.14, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 30}
+18:25:29 [station 1] reading boot 29374 seq 8 queued (queue 1) {"station": 1, "boot": 29374, "seq": 8, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:25:30 [station 1] -> node 2 ok (lseq 48415, hop ack rssi=-12 snr=11.0, queue 0)
+18:26:29 [station 1] source TELEM {"temperature": 27.47, "humidity": 62.41, "pressure": 1009.28, "altitude": 33.14, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 30}
+18:26:29 [station 1] reading boot 29374 seq 9 queued (queue 1) {"station": 1, "boot": 29374, "seq": 9, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:26:30 [station 1] -> node 2 ok (lseq 48416, hop ack rssi=-11 snr=11.0, queue 0)
+18:27:29 [station 1] source TELEM {"temperature": 27.47, "humidity": 62.41, "pressure": 1009.28, "altitude": 33.14, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 30}
+18:27:29 [station 1] reading boot 29374 seq 10 queued (queue 1) {"station": 1, "boot": 29374, "seq": 10, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:27:30 [station 1] -> node 2 ok (lseq 48417, hop ack rssi=-11 snr=11.0, queue 0)
+18:28:29 [station 1] source TELEM {"temperature": 28.08, "humidity": 60.14, "pressure": 1009.33, "altitude": 32.66, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 25}
+18:28:29 [station 1] reading boot 29374 seq 11 queued (queue 1) {"station": 1, "boot": 29374, "seq": 11, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:28:30 [station 1] -> node 2 ok (lseq 48418, hop ack rssi=-11 snr=10.0, queue 0)
+18:29:29 [station 1] source TELEM {"temperature": 28.08, "humidity": 60.14, "pressure": 1009.33, "altitude": 32.66, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 25}
+18:29:29 [station 1] reading boot 29374 seq 12 queued (queue 1) {"station": 1, "boot": 29374, "seq": 12, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:29:30 [station 1] -> node 2 ok (lseq 48419, hop ack rssi=-11 snr=11.0, queue 0)
+18:30:29 [station 1] source TELEM {"temperature": 28.08, "humidity": 60.14, "pressure": 1009.33, "altitude": 32.66, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 25}
+18:30:29 [station 1] reading boot 29374 seq 13 queued (queue 1) {"station": 1, "boot": 29374, "seq": 13, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:30:30 [station 1] -> node 2 ok (lseq 48420, hop ack rssi=-11 snr=11.0, queue 0)
+18:31:29 [station 1] source TELEM {"temperature": 28.08, "humidity": 60.14, "pressure": 1009.33, "altitude": 32.66, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 25}
+18:31:29 [station 1] reading boot 29374 seq 14 queued (queue 1) {"station": 1, "boot": 29374, "seq": 14, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:31:30 [station 1] -> node 2 ok (lseq 48421, hop ack rssi=-12 snr=11.0, queue 0)
+18:32:29 [station 1] source TELEM {"temperature": 28.33, "humidity": 59.06, "pressure": 1009.29, "altitude": 33.28, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 26}
+18:32:29 [station 1] reading boot 29374 seq 15 queued (queue 1) {"station": 1, "boot": 29374, "seq": 15, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:32:30 [station 1] -> node 2 ok (lseq 48422, hop ack rssi=-12 snr=10.0, queue 0)
+18:33:29 [station 1] source TELEM {"temperature": 28.33, "humidity": 59.06, "pressure": 1009.29, "altitude": 33.28, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 26}
+18:33:29 [station 1] reading boot 29374 seq 16 queued (queue 1) {"station": 1, "boot": 29374, "seq": 16, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:33:30 [station 1] -> node 2 ok (lseq 48423, hop ack rssi=-12 snr=11.0, queue 0)
+18:34:29 [station 1] source TELEM {"temperature": 28.33, "humidity": 59.06, "pressure": 1009.29, "altitude": 33.28, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 26}
+18:34:29 [station 1] reading boot 29374 seq 17 queued (queue 1) {"station": 1, "boot": 29374, "seq": 17, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:34:30 [station 1] -> node 2 ok (lseq 48424, hop ack rssi=-12 snr=11.0, queue 0)
+18:35:29 [station 1] source TELEM {"temperature": 28.33, "humidity": 59.06, "pressure": 1009.29, "altitude": 33.28, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 26}
+18:35:29 [station 1] reading boot 29374 seq 18 queued (queue 1) {"station": 1, "boot": 29374, "seq": 18, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:35:30 [station 1] -> node 2 ok (lseq 48425, hop ack rssi=-12 snr=11.0, queue 0)
+18:36:29 [station 1] source TELEM {"temperature": 28.58, "humidity": 58.04, "pressure": 1009.18, "altitude": 33.9, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 34}
+18:36:29 [station 1] reading boot 29374 seq 19 queued (queue 1) {"station": 1, "boot": 29374, "seq": 19, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:36:30 [station 1] -> node 2 ok (lseq 48426, hop ack rssi=-11 snr=11.0, queue 0)
+18:37:29 [station 1] source TELEM {"temperature": 28.58, "humidity": 58.04, "pressure": 1009.18, "altitude": 33.9, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 34}
+18:37:29 [station 1] reading boot 29374 seq 20 queued (queue 1) {"station": 1, "boot": 29374, "seq": 20, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:37:30 [station 1] -> node 2 ok (lseq 48427, hop ack rssi=-10 snr=11.0, queue 0)
+18:38:29 [station 1] source TELEM {"temperature": 28.58, "humidity": 58.04, "pressure": 1009.18, "altitude": 33.9, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 34}
+18:38:29 [station 1] reading boot 29374 seq 21 queued (queue 1) {"station": 1, "boot": 29374, "seq": 21, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:38:30 [station 1] -> node 2 ok (lseq 48428, hop ack rssi=-11 snr=11.0, queue 0)
+18:39:29 [station 1] source TELEM {"temperature": 28.58, "humidity": 58.04, "pressure": 1009.18, "altitude": 33.9, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 34}
+18:39:29 [station 1] reading boot 29374 seq 22 queued (queue 1) {"station": 1, "boot": 29374, "seq": 22, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:39:30 [station 1] -> node 2 ok (lseq 48429, hop ack rssi=-11 snr=11.0, queue 0)
+18:40:29 [station 1] source TELEM {"temperature": 28.77, "humidity": 57.3, "pressure": 1009.28, "altitude": 33.07, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 25}
+18:40:29 [station 1] reading boot 29374 seq 23 queued (queue 1) {"station": 1, "boot": 29374, "seq": 23, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:40:30 [station 1] -> node 2 ok (lseq 48430, hop ack rssi=-11 snr=11.0, queue 0)
+18:41:29 [station 1] source TELEM {"temperature": 28.77, "humidity": 57.3, "pressure": 1009.28, "altitude": 33.07, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 25}
+18:41:29 [station 1] reading boot 29374 seq 24 queued (queue 1) {"station": 1, "boot": 29374, "seq": 24, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:41:30 [station 1] -> node 2 ok (lseq 48431, hop ack rssi=-11 snr=10.0, queue 0)
+18:42:29 [station 1] source TELEM {"temperature": 28.77, "humidity": 57.3, "pressure": 1009.28, "altitude": 33.07, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 25}
+18:42:29 [station 1] reading boot 29374 seq 25 queued (queue 1) {"station": 1, "boot": 29374, "seq": 25, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:42:30 [station 1] -> node 2 ok (lseq 48432, hop ack rssi=-9 snr=11.0, queue 0)
+18:43:29 [station 1] source TELEM {"temperature": 28.77, "humidity": 57.3, "pressure": 1009.28, "altitude": 33.07, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 25}
+18:43:29 [station 1] reading boot 29374 seq 26 queued (queue 1) {"station": 1, "boot": 29374, "seq": 26, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:43:30 [station 1] -> node 2 ok (lseq 48433, hop ack rssi=-9 snr=10.0, queue 0)
+18:44:29 [station 1] source TELEM {"temperature": 28.93, "humidity": 56.73, "pressure": 1009.32, "altitude": 32.79, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 22}
+18:44:29 [station 1] reading boot 29374 seq 27 queued (queue 1) {"station": 1, "boot": 29374, "seq": 27, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:44:30 [station 1] -> node 2 ok (lseq 48434, hop ack rssi=-9 snr=11.0, queue 0)
+18:45:29 [station 1] source TELEM {"temperature": 28.93, "humidity": 56.73, "pressure": 1009.32, "altitude": 32.79, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 22}
+18:45:29 [station 1] reading boot 29374 seq 28 queued (queue 1) {"station": 1, "boot": 29374, "seq": 28, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:45:30 [station 1] -> node 2 ok (lseq 48435, hop ack rssi=-9 snr=11.0, queue 0)
+18:46:29 [station 1] source TELEM {"temperature": 28.93, "humidity": 56.73, "pressure": 1009.32, "altitude": 32.79, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 22}
+18:46:29 [station 1] reading boot 29374 seq 29 queued (queue 1) {"station": 1, "boot": 29374, "seq": 29, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:46:30 [station 1] -> node 2 ok (lseq 48436, hop ack rssi=-9 snr=10.0, queue 0)
+18:47:29 [station 1] source TELEM {"temperature": 28.93, "humidity": 56.73, "pressure": 1009.32, "altitude": 32.79, "wind_speed": 0.0, "wind_dir": -1.0, "rain_mm": 0.0, "soil_pct": 100.0, "soil_adc": 22}
+18:47:29 [station 1] reading boot 29374 seq 30 queued (queue 1) {"station": 1, "boot": 29374, "seq": 30, "sensor_fail": true, "fake": false, "low_batt": false, "cold_boot": false}
+18:47:30 [station 1] -> node 2 ok (lseq 48437, hop ack rssi=-9 snr=10.0, queue 0)
+18:49:58 [station 1] held []
+18:49:58 [station 1] stopped; queue 0; stats {"sent": 30, "acked": 30, "retries": 0, "fwd_in": 0, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 9.12, "faults": 0, "dropped": 0, "refused_duty": 0, "published": 0, "unexpected_errors": 0}

@@ -1,0 +1,18 @@
+readings made           : 25
+delivered (unique)      : 21   hop counts seen: [2]
+still queued at stop    : station 4, relays 0
+missing                 : 4 [('62737', 22), ('62737', 23), ('62737', 24), ('62737', 25)]
+  of which unexplained  : 0   (missing beyond what was still queued)
+duplicates delivered    : 0 []
+phantom deliveries      : 0 []
+delivery order preserved: True
+latency s (min/median/max): 1 / 28 / 47
+log events:
+  station               : {'next hop unreachable': 2}
+                          queue 4; stats {"sent": 32, "acked": 21, "retries": 11, "fwd_in": 0, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 9.73, "faults": 0}
+  gateway               : {'duplicate re-acked': 10}
+                          queue 0; stats {"sent": 0, "acked": 0, "retries": 0, "fwd_in": 21, "dup_in": 10, "delivered": 21, "recoveries": 0, "duty_waits": 0, "airtime_s": 4.98, "faults": 0}
+  relay(relay.log)      : {'duplicate re-acked': 4}
+                          queue 0; stats {"sent": 9, "acked": 6, "retries": 3, "fwd_in": 6, "dup_in": 1, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 3.86, "faults": 0}
+                          queue 0; stats {"sent": 24, "acked": 15, "retries": 9, "fwd_in": 15, "dup_in": 3, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 10.19, "faults": 0}
+RESULT: PASS

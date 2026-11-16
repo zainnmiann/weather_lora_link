@@ -1,0 +1,17 @@
+readings made           : 38
+delivered (unique)      : 30   hop counts seen: [2]
+still queued at stop    : station 8, relays 0
+missing                 : 8 [('19608', 31), ('19608', 32), ('19608', 33), ('19608', 34), ('19608', 35), ('19608', 36), ('19608', 37), ('19608', 38)]
+  of which unexplained  : 0   (missing beyond what was still queued)
+duplicates delivered    : 0 []
+phantom deliveries      : 0 []
+delivery order preserved: True
+latency s (min/median/max): 2 / 181 / 246
+log events:
+  station               : {'next hop unreachable': 9}
+                          queue 8; stats {"sent": 69, "acked": 30, "retries": 39, "fwd_in": 0, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 20.98, "faults": 0}
+  gateway               : {'duplicate re-acked': 10, 'injected fault': 14}
+                          queue 0; stats {"sent": 0, "acked": 0, "retries": 0, "fwd_in": 30, "dup_in": 10, "delivered": 30, "recoveries": 0, "duty_waits": 0, "airtime_s": 4.82, "faults": 14}
+  relay(relay.log)      : {'next hop unreachable': 4, 'duplicate re-acked': 10, 'injected fault': 17}
+                          queue 0; stats {"sent": 47, "acked": 30, "retries": 17, "fwd_in": 30, "dup_in": 10, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 19.12, "faults": 17}
+RESULT: PASS-UNDRAINED (correct, but 8 reading(s) had not arrived when the run ended)

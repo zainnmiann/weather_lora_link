@@ -1,0 +1,17 @@
+readings made           : 90
+delivered (unique)      : 14   hop counts seen: [2]
+still queued at stop    : station 76, relays 0
+missing                 : 76 [('7899', 15), ('7899', 16), ('7899', 17), ('7899', 18), ('7899', 19), ('7899', 20), ('7899', 21), ('7899', 22), ('7899', 23), ('7899', 24)]
+  of which unexplained  : 0   (missing beyond what was still queued)
+duplicates delivered    : 0 []
+phantom deliveries      : 0 []
+delivery order preserved: True
+latency s (min/median/max): 2 / 17 / 38
+log events:
+  station               : {'duty-cycle hold': 1}
+                          queue 76; stats {"sent": 26, "acked": 14, "retries": 12, "fwd_in": 0, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 1, "airtime_s": 7.91, "faults": 0}
+  gateway               : none
+                          queue 0; stats {"sent": 0, "acked": 0, "retries": 0, "fwd_in": 14, "dup_in": 0, "delivered": 14, "recoveries": 0, "duty_waits": 0, "airtime_s": 2.25, "faults": 0}
+  relay(relay.log)      : none
+                          queue 0; stats {"sent": 14, "acked": 14, "retries": 0, "fwd_in": 14, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 6.51, "faults": 0}
+RESULT: PASS-UNDRAINED (correct, but 76 reading(s) had not arrived when the run ended)

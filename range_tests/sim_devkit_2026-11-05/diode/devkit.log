@@ -1,0 +1,40 @@
+19:59:47 ets Jul 29 2019 12:21:46
+19:59:47 
+19:59:47 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+19:59:47 configsip: 0, SPIWP:0xee
+19:59:47 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+19:59:47 mode:DIO, clock div:2
+19:59:47 load:0x3fff0030,len:1184
+19:59:47 load:0x40078000,len:13232
+19:59:47 load:0x40080400,len:3028
+19:59:47 entry 0x400805e4
+19:59:47 
+19:59:47 === SIM800L probe ===
+19:59:47 GPIO17 as INPUT: high 20/20
+19:59:48 GPIO17 as PULLUP: high 20/20
+19:59:48 GPIO17 as PULLDOWN: high 0/20
+19:59:48 GPIO16 (SIM TXD) idle: high 20/20 (UART idle should be high)
+19:59:48 baud 9600:
+19:59:48   AT             ->  | OK |
+19:59:48 RESULT: modem answers at 9600 baud
+19:59:50   ATI            ->  | SIM800 R14.18 |  | OK |
+19:59:52   AT+GSN         -> (no reply)
+19:59:54   AT+CPIN?       -> (no reply)
+19:59:56   AT+CCID        ->  | 89902860300465309601 |  | OK |  | +CPIN: READY |
+19:59:58   AT+CSQ         ->  | +CSQ: 0,0 |  | OK |  | Call Ready |
+20:00:00   AT+CREG?       ->  | +CREG: 0,2 |  | OK |  | SMS Ready |
+20:00:02   AT+COPS?       ->  | +COPS: 0 |  | OK |
+20:00:04   AT+CBC         ->  | +CBC: 0,76,4011 |  | OK |
+20:00:06   AT+CGATT?      ->  | +CGATT: 0 |  | OK |
+20:00:07 status:
+20:00:08   AT+CSQ         ->  | +CSQ: 5,0 |  | OK |
+20:00:10   AT+CREG?       ->  | +CREG: 0,2 |  | OK |
+20:00:11   AT+CBC         ->  | +CBC: 0,76,4016 |  | OK |
+20:00:27 status:
+20:00:28   AT+CSQ         ->  | +CSQ: 10,0 |  | OK |
+20:00:30   AT+CREG?       ->  | +CREG: 0,2 |  | OK |
+20:00:31   AT+CBC         ->  | +CBC: 0,81,4056 |  | OK |
+20:00:47 status:
+20:00:48   AT+CSQ         ->  | +CSQ: 9,0 |  | OK |
+20:00:50   AT+CREG?       ->  | +CREG: 0,2 |  | OK |
+20:00:51   AT+CBC         ->  | +CBC: 0,81,4049 |  | OK |

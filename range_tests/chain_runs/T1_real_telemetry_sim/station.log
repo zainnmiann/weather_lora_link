@@ -1,0 +1,34 @@
+16:10:32 [station 1] telemetry: listening on /dev/ttys002
+16:10:34 [station 1] up on 869.525 MHz SF9 14 dBm, duty budget 324 s/h, next hop 2
+16:10:34 [station 1] reading boot 61779 seq 1 queued (queue 1) {"station": 1, "boot": 61779, "seq": 1, "temp_c": 20.3, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 3.0, "gust_ms": 3.0, "wind_dir_deg": 135.0, "rain_total_mm": 0.0, "soil_pct": 42.5, "lightning_total": 0.0, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:10:35 [station 1] -> node 2 ok (lseq 54058, hop ack rssi=-6 snr=12.0, queue 0)
+16:10:49 [station 1] reading boot 61779 seq 2 queued (queue 1) {"station": 1, "boot": 61779, "seq": 2, "temp_c": 20.8, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 0.0, "rain_total_mm": 0.6, "soil_pct": 42.5, "lightning_total": 1.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:10:50 [station 1] -> node 2 ok (lseq 54059, hop ack rssi=-7 snr=10.0, queue 0)
+16:11:04 [station 1] reading boot 61779 seq 3 queued (queue 1) {"station": 1, "boot": 61779, "seq": 3, "temp_c": 20.3, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 225.0, "rain_total_mm": 0.8, "soil_pct": 42.5, "lightning_total": 1.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:11:05 [station 1] -> node 2 ok (lseq 54060, hop ack rssi=-6 snr=12.0, queue 0)
+16:11:19 [station 1] reading boot 61779 seq 4 queued (queue 1) {"station": 1, "boot": 61779, "seq": 4, "temp_c": 20.8, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 90.0, "rain_total_mm": 1.1, "soil_pct": 42.5, "lightning_total": 2.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:11:20 [station 1] -> node 2 ok (lseq 54061, hop ack rssi=-6 snr=11.0, queue 0)
+16:11:34 [station 1] reading boot 61779 seq 5 queued (queue 1) {"station": 1, "boot": 61779, "seq": 5, "temp_c": 20.3, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 315.0, "rain_total_mm": 1.4, "soil_pct": 42.5, "lightning_total": 3.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:11:35 [station 1] -> node 2 ok (lseq 54062, hop ack rssi=-6 snr=11.0, queue 0)
+16:11:49 [station 1] reading boot 61779 seq 6 queued (queue 1) {"station": 1, "boot": 61779, "seq": 6, "temp_c": 20.8, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 180.0, "rain_total_mm": 2.0, "soil_pct": 42.5, "lightning_total": 4.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:11:50 [station 1] -> node 2 ok (lseq 54063, hop ack rssi=-6 snr=11.0, queue 0)
+16:12:04 [station 1] reading boot 61779 seq 7 queued (queue 1) {"station": 1, "boot": 61779, "seq": 7, "temp_c": 20.3, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 45.0, "rain_total_mm": 2.2, "soil_pct": 42.5, "lightning_total": 4.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:12:05 [station 1] -> node 2 ok (lseq 54064, hop ack rssi=-6 snr=10.0, queue 0)
+16:12:19 [station 1] reading boot 61779 seq 8 queued (queue 1) {"station": 1, "boot": 61779, "seq": 8, "temp_c": 20.8, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 270.0, "rain_total_mm": 2.5, "soil_pct": 42.5, "lightning_total": 5.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:12:20 [station 1] -> node 2 ok (lseq 54065, hop ack rssi=-6 snr=10.0, queue 0)
+16:12:24 [station 1] telemetry: weather station restarted (banner seen)
+16:12:34 [station 1] weather station restarted: new boot 16128
+16:12:34 [station 1] reading boot 16128 seq 1 queued (queue 1) {"station": 1, "boot": 16128, "seq": 1, "temp_c": 20.3, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 135.0, "rain_total_mm": 0.3, "soil_pct": 42.5, "lightning_total": 6.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:12:35 [station 1] -> node 2 ok (lseq 54066, hop ack rssi=-6 snr=10.0, queue 0)
+16:12:49 [station 1] reading boot 16128 seq 2 queued (queue 1) {"station": 1, "boot": 16128, "seq": 2, "temp_c": 20.8, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 0.0, "rain_total_mm": 0.8, "soil_pct": 42.5, "lightning_total": 6.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:12:50 [station 1] -> node 2 ok (lseq 54067, hop ack rssi=-6 snr=11.0, queue 0)
+16:13:04 [station 1] reading boot 16128 seq 3 queued (queue 1) {"station": 1, "boot": 16128, "seq": 3, "temp_c": 20.3, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 225.0, "rain_total_mm": 1.1, "soil_pct": 42.5, "lightning_total": 7.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:13:05 [station 1] -> node 2 ok (lseq 54068, hop ack rssi=-6 snr=10.0, queue 0)
+16:13:19 [station 1] reading boot 16128 seq 4 queued (queue 1) {"station": 1, "boot": 16128, "seq": 4, "temp_c": 20.8, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 90.0, "rain_total_mm": 1.4, "soil_pct": 42.5, "lightning_total": 8.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:13:20 [station 1] -> node 2 ok (lseq 54069, hop ack rssi=-6 snr=11.0, queue 0)
+16:13:34 [station 1] reading boot 16128 seq 5 queued (queue 1) {"station": 1, "boot": 16128, "seq": 5, "temp_c": 20.3, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 315.0, "rain_total_mm": 1.7, "soil_pct": 42.5, "lightning_total": 9.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:13:35 [station 1] -> node 2 ok (lseq 54070, hop ack rssi=-6 snr=11.0, queue 0)
+16:13:49 [station 1] reading boot 16128 seq 6 queued (queue 1) {"station": 1, "boot": 16128, "seq": 6, "temp_c": 20.8, "rh_pct": 55.0, "press_hpa": 1001.5, "wind_ms": 2.0, "gust_ms": 4.0, "wind_dir_deg": 180.0, "rain_total_mm": 2.2, "soil_pct": 42.5, "lightning_total": 9.0, "lightning_km": 12, "sensor_fail": false, "fake": false, "low_batt": false, "cold_boot": false}
+16:13:50 [station 1] -> node 2 ok (lseq 54071, hop ack rssi=-6 snr=11.0, queue 0)
+16:14:38 [station 1] held []
+16:14:38 [station 1] stopped; queue 0; stats {"sent": 14, "acked": 14, "retries": 0, "fwd_in": 0, "dup_in": 0, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 4.26, "faults": 0, "dropped": 0, "refused_duty": 0, "published": 0, "unexpected_errors": 0}

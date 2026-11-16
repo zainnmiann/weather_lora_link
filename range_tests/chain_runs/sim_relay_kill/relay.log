@@ -1,0 +1,51 @@
+12:17:13 [relay 2] up on 869.525 MHz SF9 14 dBm, duty budget 324 s/h, next hop 3
+12:17:18 [relay 2] <- node 1 lseq 9521 rssi=-63 snr=4.8, forwarding to 3
+12:17:22 [relay 2] -> node 3 ok (lseq 29186, hop ack rssi=-102 snr=-5.0, queue 0)
+12:17:23 [relay 2] <- node 1 lseq 9522 rssi=-98 snr=3.1, forwarding to 3
+12:17:24 [relay 2] -> node 3 ok (lseq 29187, hop ack rssi=-72 snr=3.8, queue 0)
+12:17:28 [relay 2] <- node 1 lseq 9523 rssi=-80 snr=2.1, forwarding to 3
+12:17:29 [relay 2] -> node 3 ok (lseq 29188, hop ack rssi=-82 snr=-4.3, queue 0)
+12:17:31 [relay 2] <- node 1 repeat lseq 9523 (our ack was lost), re-acked
+12:17:33 [relay 2] <- node 1 lseq 9524 rssi=-87 snr=8.8, forwarding to 3
+12:17:38 [relay 2] <- node 1 lseq 9525 rssi=-70 snr=-4.5, forwarding to 3
+12:17:41 [relay 2] -> node 3 ok (lseq 29189, hop ack rssi=-81 snr=8.8, queue 1)
+12:17:42 [relay 2] -> node 3 ok (lseq 29190, hop ack rssi=-101 snr=-3.3, queue 0)
+12:17:43 [relay 2] <- node 1 lseq 9526 rssi=-79 snr=-0.9, forwarding to 3
+12:17:44 [relay 2] -> node 3 ok (lseq 29191, hop ack rssi=-94 snr=6.5, queue 0)
+12:17:47 [relay 2] stopped; queue 0; stats {"sent": 9, "acked": 6, "retries": 3, "fwd_in": 6, "dup_in": 1, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 3.86, "faults": 0}
+12:18:27 [relay 2] restored state: 0 queued, 6 remembered packets
+12:18:28 [relay 2] up on 869.525 MHz SF9 14 dBm, duty budget 324 s/h, next hop 3
+12:18:33 [relay 2] <- node 1 lseq 9527 rssi=-87 snr=9.3, forwarding to 3
+12:18:34 [relay 2] <- node 1 lseq 9528 rssi=-84 snr=-2.4, forwarding to 3
+12:18:35 [relay 2] <- node 1 lseq 9529 rssi=-69 snr=-2.3, forwarding to 3
+12:18:38 [relay 2] -> node 3 ok (lseq 29192, hop ack rssi=-98 snr=3.2, queue 2)
+12:18:39 [relay 2] -> node 3 ok (lseq 29193, hop ack rssi=-66 snr=7.5, queue 1)
+12:18:39 [relay 2] -> node 3 ok (lseq 29194, hop ack rssi=-102 snr=1.3, queue 0)
+12:18:42 [relay 2] <- node 1 repeat lseq 9529 (our ack was lost), re-acked
+12:18:43 [relay 2] <- node 1 lseq 9530 rssi=-74 snr=0.6, forwarding to 3
+12:18:44 [relay 2] <- node 1 lseq 9531 rssi=-91 snr=2.4, forwarding to 3
+12:18:47 [relay 2] -> node 3 ok (lseq 29195, hop ack rssi=-85 snr=-4.8, queue 1)
+12:18:47 [relay 2] <- node 1 repeat lseq 9531 (our ack was lost), re-acked
+12:18:48 [relay 2] <- node 1 lseq 9532 rssi=-103 snr=-4.8, forwarding to 3
+12:18:52 [relay 2] -> node 3 ok (lseq 29196, hop ack rssi=-67 snr=8.7, queue 1)
+12:18:52 [relay 2] <- node 1 repeat lseq 9532 (our ack was lost), re-acked
+12:18:53 [relay 2] <- node 1 lseq 9533 rssi=-62 snr=-4.0, forwarding to 3
+12:18:54 [relay 2] <- node 1 lseq 9534 rssi=-83 snr=3.8, forwarding to 3
+12:18:55 [relay 2] <- node 1 lseq 9535 rssi=-106 snr=10.0, forwarding to 3
+12:18:55 [relay 2] <- node 1 lseq 9536 rssi=-65 snr=8.8, forwarding to 3
+12:18:56 [relay 2] <- node 1 lseq 9537 rssi=-86 snr=6.2, forwarding to 3
+12:18:57 [relay 2] <- node 1 lseq 9538 rssi=-88 snr=9.1, forwarding to 3
+12:18:58 [relay 2] <- node 1 lseq 9539 rssi=-62 snr=-0.7, forwarding to 3
+12:18:59 [relay 2] <- node 1 lseq 9540 rssi=-108 snr=-3.6, forwarding to 3
+12:18:59 [relay 2] <- node 1 lseq 9541 rssi=-86 snr=-4.2, forwarding to 3
+12:19:01 [relay 2] -> node 3 ok (lseq 29197, hop ack rssi=-92 snr=-0.0, queue 9)
+12:19:01 [relay 2] -> node 3 ok (lseq 29198, hop ack rssi=-77 snr=-4.5, queue 8)
+12:19:02 [relay 2] -> node 3 ok (lseq 29199, hop ack rssi=-80 snr=4.9, queue 7)
+12:19:03 [relay 2] -> node 3 ok (lseq 29200, hop ack rssi=-80 snr=-2.7, queue 6)
+12:19:04 [relay 2] -> node 3 ok (lseq 29201, hop ack rssi=-90 snr=9.1, queue 5)
+12:19:05 [relay 2] -> node 3 ok (lseq 29202, hop ack rssi=-100 snr=-4.5, queue 4)
+12:19:12 [relay 2] -> node 3 ok (lseq 29203, hop ack rssi=-77 snr=3.5, queue 3)
+12:19:20 [relay 2] -> node 3 ok (lseq 29204, hop ack rssi=-104 snr=-3.7, queue 2)
+12:19:21 [relay 2] -> node 3 ok (lseq 29205, hop ack rssi=-86 snr=2.8, queue 1)
+12:19:22 [relay 2] -> node 3 ok (lseq 29206, hop ack rssi=-105 snr=6.7, queue 0)
+12:20:18 [relay 2] stopped; queue 0; stats {"sent": 24, "acked": 15, "retries": 9, "fwd_in": 15, "dup_in": 3, "delivered": 0, "recoveries": 0, "duty_waits": 0, "airtime_s": 10.19, "faults": 0}
